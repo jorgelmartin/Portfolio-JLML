@@ -1,0 +1,44 @@
+.containerProjects {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around; /* Centrar verticalmente */
+  align-items: center; /* Centrar horizontalmente */
+  text-align: center;
+ 
+}
+  .projectConsole {
+    /* display: flex; */
+  /* flex-direction: column; */
+  /* position: fixed; */
+  /* top: 6em;
+  left: 0; */
+ 
+
+  }
+  .projectConsole1 {
+    /* display: flex; */
+  /* flex-direction: column; */
+  /* position: fixed; */
+  /* top: 6em;
+  left: 0; */
+ 
+
+  }
+  
+  .imageGallery {
+    display: flex;
+
+    justify-content: center;
+  }
+  
+  img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 1em;
+    margin: 1em;
+    transition: transform 0.2s ease;
+  }
+  
+  /* img:hover {
+    transform: scale(1.1);
+  } */
