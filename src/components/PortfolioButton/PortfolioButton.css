@@ -1,0 +1,28 @@
+.AnotherButton {
+    background-color: #8d8093;
+    color: #58006a;
+    padding: 0.2em 0.3em;
+    border: 0.2em solid rgba(77, 89, 77, 0.529);
+    border-radius: 1em;
+    font-size: 1em;
+    cursor: pointer;
+    /* margin-top: 1.9em; */
+    margin: 0.4em;
+    font-weight: bold;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow:  0.02em 0.02em 0.2em 0.1em rgba(21, 61, 9, 0.532);
+    height: 2.3em;
+    /* width: 3em; */
+ /* text-align: center; */
+}
+
+.AnotherButton:hover{
+    box-shadow: none;
+    /* transform: scale(0.96); */
+}
+
+.ButtonImage {
+    max-width: 1.5em;
+    max-height: 1.5em;
+    /* margin-right: 0.5em; Ajusta el espacio entre la imagen y el texto si es necesario */
+}
