@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Button, Modal } from "react-bootstrap";
-import { PortfolioButton } from "../PortfolioButton/PortfolioButton";
-import { AnotherButton } from "../PortfolioButton/PortfolioButton";
+
+
 
 export const ImageGallery = ({ description, images, toggleGallery, galleryVisible, currentImageIndex, prevImage, nextImage }) => {
     return (

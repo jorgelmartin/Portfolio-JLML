@@ -1,7 +1,7 @@
 import React from "react";
-import './AnotherButton.css';
+import './PortfolioButton.css';
 
-export const AnotherButton = ({ onClick, imageSrc, text, href }) => {
+export const PortfolioButton = ({ onClick, imageSrc, text, href }) => {
 
     return (
         <>

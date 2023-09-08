@@ -10,9 +10,9 @@ export const Header = () => {
             <div className='headerDesign'>
                 <div className="headerLink">
                     <div className="headerLinks" onClick={() => navigate("/projects")}>Projects</div>
-                    <div className="headerLinks" onClick={() => navigate("/student")}>AboutMe</div>
-                    <div className="headerLinks" onClick={() => navigate("/student")}>Stack</div>
-                    <div className="headerLinks" onClick={() => navigate("/student")}>Contact</div>
+                    {/* <div className="headerLinks" onClick={() => navigate("/student")}>AboutMe</div> */}
+                    <div className="headerLinks" onClick={() => navigate("/stack")}>Stack</div>
+                    <div className="headerLinks" onClick={() => navigate("/contact")}>Contact</div>
                 </div>
             </div>
         </>
