@@ -24,10 +24,10 @@ export const Stack = () => {
 
   const toolsTech = [
     { name: "Git", description: "A version control system that allows tracking changes in source code." },
-    { name: "GitHub", description: "GitHub: A source code hosting platform based on Git, used to host code repositories, collaborate on projects, and manage the development workflow." },
+    { name: "GitHub", description: "Source code hosting platform based on Git, used to host code repositories, collaborate on projects, and manage the development workflow." },
     { name: "MySQL Workbench", description: "A database management tool for designing, modeling, and administering MySQL databases." },
     { name: "Postman", description: "A tool for testing and debugging APIs by sending HTTP requests." },
-    { name: "Docker", description: "A platform for creating, deploying, and managing applications in containers, making deployment and scalability easier." },
+    { name: "Docker", description: "Platform for creating, deploying, and managing applications in containers, making deployment and scalability easier." },
     { name: "WordPress", description: "A widely used content management system (CMS) for building websites and blogs." },
   ];
 
@@ -49,11 +49,11 @@ export const Stack = () => {
                   fontSize: '0.8em'
                 }}
               >
-                <h2>Tecnologías Frontend</h2>
+                <h3>Stack Frontend</h3>
                 <div className="">
                   {frontendTechnologies.map((tech, i) => (
                     <div className="techName" key={i}>
-                      <h4>{tech.name}</h4>
+                      <h6>{tech.name}</h6>
                       <p>{tech.description}</p>
                     </div>
                   ))}
@@ -69,11 +69,11 @@ export const Stack = () => {
                   padding: '1em',
                   fontSize: '0.8em'
                 }}>
-                <h2>Tecnologías Backend</h2>
+                <h3>Stack Backend</h3>
                 <div className="">
                   {backendTechnologies.map((tech, i) => (
                     <div className="techName" key={i}>
-                      <h4>{tech.name}</h4>
+                      <h6>{tech.name}</h6>
                       <p>{tech.description}</p>
                     </div>
                   ))}
@@ -89,13 +89,13 @@ export const Stack = () => {
                   padding: '1em',
                   fontSize: '0.8em',
                   marginBottom: '2em',
-                  marginTop: '-5em',
+                  marginTop: '-3em',
                 }}>
-                <h2>Tools and Version Control</h2>
+                <h3>Tools and Version Control</h3>
                 <div>
                   {toolsTech.map((tech, i) => (
                     <div className="techName" key={i}>
-                      <h4>{tech.name}</h4>
+                      <h6>{tech.name}</h6>
                       <p>{tech.description}</p>
                     </div>
                   ))}
@@ -112,11 +112,11 @@ export const Stack = () => {
                   fontSize: '0.8em',
                   marginTop: '2em'
                 }}>
-                <h2>Development Methodology</h2>
+                <h3>Development Methodology</h3>
                 <div>
             
                     <div className="techName">
-                      <h4>SCRUM</h4>
+                      <h6>SCRUM</h6>
                       <p>An agile framework for managing software development projects, focusing on collaboration, adaptability, and incremental delivery.</p>
                     </div>
       
