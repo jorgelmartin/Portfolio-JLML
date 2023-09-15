@@ -49,10 +49,10 @@ export const Stack = () => {
           <Row>
             <Col xs={12} lg={6}>
               <Card className="cardStack">
-                <h3 className="techTitle">Stack Frontend</h3>
+                <h3 className="techTitle">Frontend</h3>
                 <div className="techName">
                   {frontendTechnologies.map((tech, i) => (
-                    <div className="techName" key={i}>
+                    <div className="techNameMap" key={i}>
                       <h6>{tech.name}</h6>
                       {/* <p>{tech.description}</p> */}
                     </div>
@@ -62,10 +62,10 @@ export const Stack = () => {
             </Col>
             <Col xs={12} lg={6}>
               <Card className="cardStack">
-                <h3 className="techTitle">Stack Backend</h3>
+                <h3 className="techTitle">Backend</h3>
                 <div className="techName">
                   {backendTechnologies.map((tech, i) => (
-                    <div className="techName" key={i}>
+                    <div className="techNameMap" key={i}>
                       <h6>{tech.name}</h6>
                       {/* <p>{tech.description}</p> */}
                     </div>
@@ -78,7 +78,7 @@ export const Stack = () => {
                 <h3 className="techTitle">Tools and Version Control</h3>
                 <div className="techName">
                   {toolsTech.map((tech, i) => (
-                    <div className="techName" key={i}>
+                    <div className="techNameMap" key={i}>
                       <h6>{tech.name}</h6>
                       {/* <p>{tech.description}</p> */}
                     </div>
@@ -94,7 +94,7 @@ export const Stack = () => {
                 <h3 className="techTitle">Development Methodology</h3>
                 <div className="techName">
                   {toolsMethodology.map((tech, i) => (
-                    <div className="techName" key={i}>
+                    <div className="techNameMap" key={i}>
                       <h6>{tech.name}</h6>
                       {/* <p>{tech.description}</p> */}
                     </div>
