@@ -7,7 +7,7 @@ export const PortfolioButton = ({ onClick, imageSrc, text, href }) => {
         <>
 <div className='borderAnother'>
             <a href={href} target="_blank" rel="noopener noreferrer">
-                <button className="AnotherButton" onClick={onClick}>
+                <button className="ButtonPortfolio" onClick={onClick}>
                     {text}
                     {imageSrc && <img src={imageSrc} alt="" className="ButtonImage" style={{ maxWidth: '1.5em', maxHeight: '1.5em' }}/>}
                 </button>

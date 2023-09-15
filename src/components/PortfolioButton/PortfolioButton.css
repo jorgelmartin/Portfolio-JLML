@@ -1,4 +1,4 @@
-.AnotherButton {
+.ButtonPortfolio {
     background-color: #8d8093;
     color: #58006a;
     padding: 0.2em 0.3em;
@@ -10,13 +10,14 @@
     margin: 0.4em;
     font-weight: bold;
     transition: transform 0.2s ease, box-shadow 0.3s ease;
-    box-shadow:  0.02em 0.02em 0.2em 0.1em rgba(21, 61, 9, 0.532);
+    box-shadow:  0.02em 0.02em 0.2em 0.1em rgba(21, 61, 9, 0.532),  0.02em 0.02em 1em 0.4em rgba(255, 69, 0, 0.9);
     height: 2.3em;
+    
     /* width: 3em; */
  /* text-align: center; */
 }
 
-.AnotherButton:hover{
+.ButtonPortfolio:hover{
     box-shadow: none;
     /* transform: scale(0.96); */
 }

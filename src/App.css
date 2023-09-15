@@ -9,11 +9,21 @@ html, body, *{
   width: 100vw;
   max-width: 100%;
   min-height: 100vh;
-  background: rgb(122,106,228);
-  background: radial-gradient(circle, rgb(102, 90, 183) 18%, rgba(40,9,98,0.8128501400560224) 60%);
+  background: rgb(69,150,224);
+background: linear-gradient(90deg, rgba(69,150,224,1) 14%, rgba(159,83,185,1) 74%);
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('/src/assets/galaxybg.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  
+}
+.imageGallery{
+  /* max-height: 20em; */
+  /* min-height: 14em; */
+  /* min-width: 30em; */
+  /* margin:1em; */
 }
 
 /* .logo {
