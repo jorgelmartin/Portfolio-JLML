@@ -9,96 +9,121 @@ import digitalMenu3 from '../../assets/digitalMenu3.png';
 import digitalMenu4 from '../../assets/digitalMenu4.png';
 import digitalMenu5 from '../../assets/digitalMenu5.png';
 import digitalMenu6 from '../../assets/digitalMenu6.png';
-import masterMind1 from '../../assets/mm1.jpeg';
-import masterMind2 from '../../assets/mm2.png';
-import masterMind3 from '../../assets/mm3.png';
-import masterMind4 from '../../assets/mm4.png';
-import masterMind5 from '../../assets/mm5.png';
-import masterMind6 from '../../assets/mm6.png';
-import masterMind7 from '../../assets/mm7.png';
-import masterMind8 from '../../assets/mm8.png';
-import masterMind9 from '../../assets/mm9.png';
+import mm1 from '../../assets/mm1.jpeg';
+import mm2 from '../../assets/mm2.png';
+import mm3 from '../../assets/mm3.png';
+import mm4 from '../../assets/mm4.png';
+import mm5 from '../../assets/mm5.png';
+import mm6 from '../../assets/mm6.png';
+import mm7 from '../../assets/mm7.png';
+import mm8 from '../../assets/mm8.png';
+import mm9 from '../../assets/mm9.png';
+import akdemy1 from '../../assets/Akdemy/home.jpeg'; 
+import akdemy2 from '../../assets/Akdemy/python.jpeg'; 
+import akdemy3 from '../../assets/Akdemy/php.jpeg'; 
+import akdemy4 from '../../assets/Akdemy/register.png';
+import akdemy5 from '../../assets/Akdemy/login.png';
+import akdemy6 from '../../assets/Akdemy/profileAkdemy.png';
+import akdemy7 from '../../assets/Akdemy/admin.jpeg';
+import akdemy8 from '../../assets/Akdemy/convoadmin.png';
+import akdemy9 from '../../assets/Akdemy/detailconvo.jpeg';
+import akdemy10 from '../../assets/Akdemy/users.png';
+import akdemy11 from '../../assets/Akdemy/pending.png';
+import akdemy12 from '../../assets/Akdemy/student.jpeg';
+import akdemy13 from '../../assets/Akdemy/inscription.png';
+import akdemy14 from '../../assets/Akdemy/inscriptionok.png';
+import akdemy15 from '../../assets/Akdemy/myprograms.png';
+import Dental1 from '../../assets/DentalClinic/BackDental.png';
+import Dental2 from '../../assets/DentalClinic/home.jpeg';
+import Dental3 from '../../assets/DentalClinic/detail.png';
+import Dental4 from '../../assets/DentalClinic/login.png';
+import Dental5 from '../../assets/DentalClinic/register.png';
+import Dental6 from '../../assets/DentalClinic/patients.png';
+import Dental7 from '../../assets/DentalClinic/citas.png';
+import Dental8 from '../../assets/DentalClinic/detallecita.png';
+import Dental9 from '../../assets/DentalClinic/home1.jpeg';
 import { Container, Row, Col } from "react-bootstrap";
 import { Project } from "../../components/Project/Project";
 
 export const Projects = () => {
-  return (
-    <Container >
-    <div className="containerProjects">
-        <Row>
-            <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                <div className="projectConsole">
-                    <Project
-                        title={"Video Console with CSS3"}
-                        description={"Proyecto de consola portátil recreada con precisión utilizando HTML y CSS3, con un enfoque en el diseño auténtico y una experiencia de usuario envolvente."}
-                        images={[consoleImage1, consoleImage2, consoleImage3]}
-                        playLink="https://jorgemctin.github.io/VideoConsoleCSS/"
-                        gitHubLink="https://github.com/jorgemctin/VideoConsoleCSS"
-                    />
-                </div>
-            </Col>
-            <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                <div className="projectConsole">
-                    <Project
-                        title={"Digital Menu Restaurant"}
-                        images={[digitalMenu1, digitalMenu2, digitalMenu3, digitalMenu4, digitalMenu5, digitalMenu6]}
-                        playLink="https://jorgemctin.github.io/DigitalMenuRestaurant/"
-                        gitHubLink="https://github.com/jorgemctin/DigitalMenuRestaurant/"
-                    />
-                </div>
-            </Col>
-            <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                <div className="projectConsole">
-                    <Project
-                        title={"Game MasterMind JS"}
-                        images={[masterMind1, masterMind2, masterMind3, masterMind4, masterMind5, masterMind6, masterMind7, masterMind8, masterMind9]}
-                        playLink="https://jorgemctin.github.io/Game-MasterMind/"
-                        gitHubLink="https://github.com/jorgemctin/Game-MasterMind"
-                    />
-                </div>
-            </Col>
-            <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                <div className="projectConsole">
-                    <Project
-                        title={"Backend Dental Clinic"}
-                        images={[masterMind1, masterMind2, masterMind3, masterMind4, masterMind5, masterMind6, masterMind7]}
-                        playLink="https://jorgemctin.github.io/Game-MasterMind/"
-                        gitHubLink="https://github.com/jorgemctin/Backend-DentalClinic"
-                    />
-                </div>
-            </Col>
-            <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                <div className="projectConsole">
-                    <Project
-                        title={"Frontend Dental Clinic"}
-                        images={[masterMind1, masterMind2, masterMind3, masterMind4, masterMind5, masterMind6, masterMind7]}
-                        playLink="https://jorgemctin.github.io/Game-Master-Mind/"
-                        gitHubLink="https://github.com/jorgemctin/Frontend-DentalClinic"
-                    />
-                </div>
-            </Col>
-            <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                <div className="projectConsole">
-                    <Project
-                        title={"Backend AkdemyProject"}
-                        images={[masterMind1, masterMind2, masterMind3, masterMind4, masterMind5, masterMind6, masterMind7]}
-                        playLink="https://react-akdemy-project.vercel.app/"
-                        gitHubLink="https://github.com/jorgemctin/Laravel-AkdemyProject"
-                    />
-                </div>
-            </Col>
-            <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                <div className="projectConsole">
-                    <Project
-                        title={"Frontend AkdemyProject"}
-                        images={[masterMind1, masterMind2, masterMind3, masterMind4, masterMind5, masterMind6, masterMind7]}
-                        playLink="https://react-akdemy-project.vercel.app/"
-                        gitHubLink="https://github.com/jorgemctin/React-AkdemyProject"
-                    />
-                </div>
-            </Col>
-        </Row>
-    </div>
-</Container>
-  );
+    return (
+        <Container >
+            <div className="containerProjects">
+                <Row>
+                    <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
+                        <div className="projectConsole">
+                            <Project
+                                title={"Video Console with CSS"}
+                                description={"Proyecto de consola portátil recreada con precisión utilizando HTML y CSS3, con un enfoque en el diseño auténtico y una experiencia de usuario envolvente."}
+                                images={[consoleImage1, consoleImage2, consoleImage3]}
+                                playLink="https://jorgemctin.github.io/VideoConsoleCSS/"
+                                gitHubLink="https://github.com/jorgemctin/VideoConsoleCSS"
+                            />
+                        </div>
+                    </Col>
+                    <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
+                        <div className="projectConsole">
+                            <Project
+                                title={"Digital Menu Restaurant"}
+                                images={[digitalMenu1, digitalMenu2, digitalMenu3, digitalMenu4, digitalMenu5, digitalMenu6]}
+                                playLink="https://jorgemctin.github.io/DigitalMenuRestaurant/"
+                                gitHubLink="https://github.com/jorgemctin/DigitalMenuRestaurant/"
+                            />
+                        </div>
+                    </Col>
+                    
+                    <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
+                        <div className="">
+                            <Project
+                                title={"Backend DentalClinic"}
+                                images={[Dental1]}
+                                playLink="https://jorgemctin.github.io/Game-MasterMind/"
+                                gitHubLink="https://github.com/jorgemctin/Backend-DentalClinic"
+                            />
+                        </div>
+                    </Col>
+                    <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
+                        <div className="">
+                            <Project
+                                title={"Frontend DentalClinic"}
+                                images={[Dental2, Dental3, Dental4, Dental5, Dental6, Dental7, Dental8, Dental9]}
+                                playLink="https://jorgemctin.github.io/Game-Master-Mind/"
+                                gitHubLink="https://github.com/jorgemctin/Frontend-DentalClinic"
+                            />
+                        </div>
+                    </Col>
+                    <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
+                        <div className="projectConsole">
+                            <Project
+                                title={"Backend AkdemyProject"}
+                                images={[mm1, mm2, mm3, mm4, mm5, mm6, mm7]}
+                                playLink="https://react-akdemy-project.vercel.app/"
+                                gitHubLink="https://github.com/jorgemctin/Laravel-AkdemyProject"
+                            />
+                        </div>
+                    </Col>
+                    <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
+                        <div className="projectConsole">
+                            <Project
+                                title={"Frontend AkdemyProject"}
+                                images={[akdemy1, akdemy2, akdemy3, akdemy4, akdemy5, akdemy6, akdemy7, akdemy8, akdemy9, akdemy10, akdemy11, akdemy12, akdemy13, akdemy14, akdemy15 ]}
+                                playLink="https://react-akdemy-project.vercel.app/"
+                                gitHubLink="https://github.com/jorgemctin/React-AkdemyProject"
+                            />
+                        </div>
+                    </Col>
+                    <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
+                        <div className="projectConsole">
+                            <Project
+                                title={"Game MasterMind JS"}
+                                images={[mm1, mm2, mm3, mm4, mm5, mm6, mm7, mm8, mm9]}
+                                playLink="https://jorgemctin.github.io/Game-MasterMind/"
+                                gitHubLink="https://github.com/jorgemctin/Game-MasterMind"
+                            />
+                        </div>
+                    </Col>
+                </Row>
+            </div>
+        </Container>
+    );
 };
