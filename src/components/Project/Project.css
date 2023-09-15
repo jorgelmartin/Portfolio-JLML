@@ -9,7 +9,8 @@
     width: 19em;
     transition: background-color 0.8s ease, box-shadow 0.8s ease;
     box-shadow: inset 0 0 2em rgba(207, 16, 255, 0.638);
-background-color: rgba(0, 255, 255, 0.295);
+background-color: rgba(0, 255, 255, 0.321);
+
 /* color: white; */
 }
 .projectCards:hover{

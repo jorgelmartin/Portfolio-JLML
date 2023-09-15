@@ -23,7 +23,7 @@ import akdemy2 from '../../assets/Akdemy/python.jpeg';
 import akdemy3 from '../../assets/Akdemy/php.jpeg'; 
 import akdemy4 from '../../assets/Akdemy/register.png';
 import akdemy5 from '../../assets/Akdemy/login.png';
-import akdemy6 from '../../assets/Akdemy/profileAkdemy.png';
+import akdemy6 from '../../assets/Akdemy/profileakdemy.png';
 import akdemy7 from '../../assets/Akdemy/admin.jpeg';
 import akdemy8 from '../../assets/Akdemy/convoadmin.png';
 import akdemy9 from '../../assets/Akdemy/detailconvo.jpeg';
@@ -33,6 +33,7 @@ import akdemy12 from '../../assets/Akdemy/student.jpeg';
 import akdemy13 from '../../assets/Akdemy/inscription.png';
 import akdemy14 from '../../assets/Akdemy/inscriptionok.png';
 import akdemy15 from '../../assets/Akdemy/myprograms.png';
+import akdemy16 from '../../assets/Akdemy/BBDDakdemy.png';
 import Dental1 from '../../assets/DentalClinic/BackDental.png';
 import Dental2 from '../../assets/DentalClinic/home.jpeg';
 import Dental3 from '../../assets/DentalClinic/detail.png';
@@ -71,13 +72,12 @@ export const Projects = () => {
                             />
                         </div>
                     </Col>
-                    
                     <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
                         <div className="">
                             <Project
                                 title={"Backend DentalClinic"}
                                 images={[Dental1]}
-                                playLink="https://jorgemctin.github.io/Game-MasterMind/"
+                                playLink="https://react-dentalclinic.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/Backend-DentalClinic"
                             />
                         </div>
@@ -87,7 +87,7 @@ export const Projects = () => {
                             <Project
                                 title={"Frontend DentalClinic"}
                                 images={[Dental2, Dental3, Dental4, Dental5, Dental6, Dental7, Dental8, Dental9]}
-                                playLink="https://jorgemctin.github.io/Game-Master-Mind/"
+                                playLink="https://react-dentalclinic.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/Frontend-DentalClinic"
                             />
                         </div>
@@ -96,7 +96,7 @@ export const Projects = () => {
                         <div className="projectConsole">
                             <Project
                                 title={"Backend AkdemyProject"}
-                                images={[mm1, mm2, mm3, mm4, mm5, mm6, mm7]}
+                                images={[akdemy16]}
                                 playLink="https://react-akdemy-project.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/Laravel-AkdemyProject"
                             />
