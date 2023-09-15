@@ -1,20 +1,68 @@
-.containerContact{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 4.4em;
+.containerContact {
+  margin-top: 8em;
+  background-color: rgba(0, 255, 255, 0);
 }
-.contactData{
-  margin-top: 4.4em;
-/* width: 20em; */
-/* height:19em; */
-background-color:rgba(132, 146, 146, 0.604);
-border-radius: 2em;
-text-align: center;
-padding: 3em;
-font-size: large;
-box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+.contactData {
+  height: 15em;
+  width: 15em;
+  /* background: linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%);
+    background: -webkit-linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%);
+    background: -moz-linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%); */
+    background-color: rgb(0, 0, 0);
+  border-radius: 10em;
+  text-align: center;
+  /* position: relative; */
+  font-size: large;
+  /* background-image: url('/src/assets/space3.png');
+  background-size: -100% -100% -100% -100%; 
+  background-repeat: no-repeat;  */
+border: solid   0.09em rgb(252, 184, 21);
+  color: rgb(0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.17) 0em -1.15em 1.25em 0em inset,rgba(188, 74, 74, 0) 0em -0.1em 3em 1em, rgba(0, 0, 0, 0.79) 0em -1.8em 1.5em 8em inset, rgba(0, 0, 0, 0.1) 0em -3.95em 2em 0em inset, rgba(0, 0, 0, 0.06) 0em 0.08em 0.04em, rgba(0, 0, 0, 0.09) 0em 0.16em 0.08em, rgba(0, 0, 0, 0.09) 0em 0.32em 0.16em, rgba(0, 0, 0, 0.09) 0em 0.64em 0.32em, rgba(0, 0, 0, 0.09) 0em 1.28em 0.64em, 0 0 5em rgb(238, 185, 50);
+  /* transition: background-color 4s ease; */
+  animation: around 20s;
+  position: relative;
+  overflow: hidden; 
 }
-.buttonsContact{
+
+
+.dataData {
+  margin-top: 3em;
+  color: rgb(199, 134, 22);
+  /* position: absolute;
+  top: 50%; */
+ /* font-size: 1.05em; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  text-align: center;
+  text-shadow: 0.05em 0.3em 1em rgba(148, 26, 255, 0.5);
+  animation: moveUpDown infinite 15s linear;
+  margin-left: 1.3em;
+  position: absolute;
+  /* left: 50%; */
+  
+}
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(-190%);
+  }
+  100% {
+    transform: translateY(140%);
+  }
+}
+
+@keyframes around {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
+
+
+
+.buttonsContact {
+  margin-top: 3em;
   display: flex;
 }
