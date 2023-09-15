@@ -28,24 +28,27 @@ export const Project = ({ title, description, images, gitHubLink, playLink }) =>
     return (
         <>
             <Container >
-                <Card className="mt-2"
+                <Card className="mt-2 projectCards"
                     style={{
                         maxWidth: '22em',
                         // minWidth: '22em',
                         // maxHeight: '100%',
                         // minHeight: '10em',
                         // backgroundColor: '#b758df84',
-                        background: 'rgb(199,101,235)',
-                        background: 'radial-gradient(circle, rgba(199,101,235,1) 1%, rgba(151,70,181,1) 41%, rgba(159,83,185,1) 75%, rgba(157,131,179,1) 92%, rgba(157,131,179,0.9136904761904762) 99%, rgba(192,135,203,1) 100%)',
+                        // background: 'rgb(69,150,224)',
+// background: 'linear-gradient(90deg, rgba(69,150,224,1) 14%, rgba(159,83,185,1) 74%)',
                         padding: '1em',
-                        color: 'black',
-                        margin: '1em',
+                        // color: 'black',
+                        margin: '0.2em',
                         borderRadius: '2em',
                         // border: 'solid #b758df84 0.2em',
-                        boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset'
+                        // boxShadow: 'rgba(50, 50, 93, 0.25) 0em 3.125em 6.25em -1.25em, rgba(0, 0, 0, 0.3) 0em 1.875em 3.75em -1.875em, rgba(10, 37, 64, 0.35) 0em -0.125em 0.375em 0em inset'
 
                     }}>
-                    <h2>{title}</h2>
+                    <h5 style={{
+                        fontSize:'1.6em',
+                        textShadow:'0.05em 0.05em 0.06em rgba(232, 221, 98, 0.5)'
+                    }}><strong>{title}</strong></h5>
                     {/* Botón "Images" en el componente Project */}
                     <div style={{
                         display: 'flex',
