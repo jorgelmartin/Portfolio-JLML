@@ -1,8 +1,6 @@
 html, body, *{
   margin: auto;
   padding: 0;
-  
-
 }
 #root {
   height: 100%;
@@ -17,14 +15,8 @@ background: linear-gradient(90deg, rgba(69,150,224,1) 14%, rgba(159,83,185,1) 74
   background-image: url('/src/assets/galaxybg.jpg');
   background-size: cover; 
   background-repeat: no-repeat; 
-  
 }
-.imageGallery{
-  /* max-height: 20em; */
-  /* min-height: 14em; */
-  /* min-width: 30em; */
-  /* margin:1em; */
-}
+
 
 /* .logo {
   height: 6em;

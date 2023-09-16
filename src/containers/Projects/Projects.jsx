@@ -48,14 +48,14 @@ import { Project } from "../../components/Project/Project";
 
 export const Projects = () => {
     return (
-        <Container >
+        <Container>
             <div className="containerProjects">
                 <Row>
                     <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
                         <div className="projectConsole">
                             <Project
                                 title={"Video Console with CSS"}
-                                description={"Proyecto de consola portátil recreada con precisión utilizando HTML y CSS3, con un enfoque en el diseño auténtico y una experiencia de usuario envolvente."}
+                                description={"Proyecto de consola portátil recreada con precisión utilizando HTML5, CSS3. Para una interacción más dinámica con el usuario se utiliza JavaScript que al presionar el botón START se active y desactive la pantalla con la imagen intro del juego Mobile Leyends."}
                                 images={[consoleImage1, consoleImage2, consoleImage3]}
                                 playLink="https://jorgemctin.github.io/VideoConsoleCSS/"
                                 gitHubLink="https://github.com/jorgemctin/VideoConsoleCSS"
@@ -66,6 +66,7 @@ export const Projects = () => {
                         <div className="projectConsole">
                             <Project
                                 title={"Digital Menu Restaurant"}
+                                description={"El proyecto es un sitio web de carta de restaurante digital para un negocio de comida callejera. Ofrece un menú con opciones de inicio, carta y contacto, reseñas de clientes y la capacidad de hacer reservas con confirmación. Tecnologías: Bootstrap, HTML y CSS."}
                                 images={[digitalMenu1, digitalMenu2, digitalMenu3, digitalMenu4, digitalMenu5, digitalMenu6]}
                                 playLink="https://jorgemctin.github.io/DigitalMenuRestaurant/"
                                 gitHubLink="https://github.com/jorgemctin/DigitalMenuRestaurant/"

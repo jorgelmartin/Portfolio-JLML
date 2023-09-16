@@ -43,9 +43,10 @@ export const Stack = () => {
     <>
       <Container
         style={{
-          marginTop: '4em'
+          marginTop: '1em',
         }}>
         <div className="stackContainer">
+        
           <Row>
             <Col xs={12} lg={6}>
               <Card className="cardStack">

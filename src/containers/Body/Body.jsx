@@ -3,8 +3,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import { Contact } from "../Contact/Contact";
 import { Projects } from "../Projects/Projects";
 import { Stack } from "../Stack/Stack";
-// import { Stack } from "react-bootstrap";
-// import { useNavigate } from 'react-router-dom';
+import { Home } from "../Home/Home";
 
 export const Body = () => {
 
@@ -13,7 +12,7 @@ export const Body = () => {
             <Routes>
                 <Route path="*" element={<Navigate to="/" />} />
                 <Route path="*" element={<Navigate to="/" />} />
-                {/* <Route path="/" element={<Home />} /> */}
+               <Route path="/" element={<Home />} /> 
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/stack" element={<Stack />} />
