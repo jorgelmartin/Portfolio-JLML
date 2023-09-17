@@ -6,17 +6,23 @@
     justify-content: center;
 }
 .projectCards{
-    width: 19em;
-    transition: background-color 0.8s ease, box-shadow 0.8s ease;
+    width: 17em;
+    border: solid 0.03em rgba(134, 56, 189, 0.508);
+    transition: background-color 0.8s ease,
+    /* border 1s ease , */
+     box-shadow 0.8s ease;
     box-shadow: inset 0 0 3em rgba(207, 16, 255, 0.638);
-background-color: rgba(0, 255, 255, 0.282);
+background-color: rgba(0, 255, 255, 0.196);
+color: white;
+text-shadow: 0.05em 0.05em 0.06em rgb(255, 222, 10);
 
 /* color: white; */
 }
 .projectCards:hover{
     background-color: rgba(240, 248, 255, 0);
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
-    text-size-adjust: 1em 1em 1em rgba(232, 221, 98, 0.5);
+    /* text-size-adjust: 1em 1em 1em rgba(232, 221, 98, 0.5); */
     box-shadow: inset 0 0 3em rgba(255, 0, 0, 0.582);
+    text-shadow: 0.05em 0.05em 0.06em rgb(98, 123, 232);
 }

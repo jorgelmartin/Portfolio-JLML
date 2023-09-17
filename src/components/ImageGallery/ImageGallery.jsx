@@ -1,28 +1,38 @@
 import React from "react";
-import { Button, Modal } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
+import { PortfolioButton } from "../PortfolioButton/PortfolioButton";
 
 //IMAGE GALLERY
 export const ImageGallery = ({ description, images, toggleGallery, galleryVisible, currentImageIndex, prevImage, nextImage }) => {
     return (
         <div>
             {/* MODAL SHOWING THE PROJECTS PICTURES */}
-            <Modal show={galleryVisible} onHide={toggleGallery} >
+            <Modal show={galleryVisible} onHide={toggleGallery} style={{
+                // backgroundColor:'black'
+            }}>
                 <Modal.Header closeButton>
                     <Modal.Title>Gallery</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
-                    <div className="imageGallery">
+                <Modal.Body >
+                    <div className="text-center">
                         <img src={images[currentImageIndex]} alt="" style={{
                             minHeight: '13em',
                             maxHeight: '24em',
                             minWidth: '20em'
                         }} />
-                        {description}
+
                     </div>
+                    {description}
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button variant="secondary" onClick={prevImage}>Anterior</Button>
-                    <Button variant="secondary" onClick={nextImage}>Siguiente</Button>
+                    <PortfolioButton
+                        onClick={prevImage}
+                        text={"Anterior"}
+                    />
+                    <PortfolioButton
+                        onClick={nextImage}
+                        text={"Siguiente"}
+                    />
                 </Modal.Footer>
             </Modal>
         </div>

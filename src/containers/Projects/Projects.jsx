@@ -99,7 +99,7 @@ export const Projects = () => {
                         <div className="projectConsole">
                             <Project
                                 title={"Backend AkdemyProject"}
-                                description={"El proyecto Akdemy es una aplicación que ofrece diferentes programas y convocatorias a sus usuarios. Los usuarios pueden registrarse en la academia y acceder a una variedad de funcionalidades según su rol. Los administradores tienen privilegios adicionales para gestionar convocatorias y solicitudes de inscripción. Los usuarios tendrán acceso a su propio perfil, donde podrán visualizar y editar su información personal. Además, podrán explorar todos los programas académicos ofrecidos por la institución, obtener detalles sobre cada uno de ellos y tomar decisiones sobre sus intereses educativos."}
+                                description={"El proyecto Akdemy es una aplicación que ofrece diferentes programas y convocatorias a sus usuarios. Los administradores tienen privilegios adicionales para gestionar convocatorias y solicitudes de inscripción. Los usuarios tendrán acceso a su propio perfil, donde podrán visualizar y editar su información personal. Además, podrán explorar todos los programas académicos ofrecidos por la institución, obtener detalles sobre cada uno de ellos y tomar decisiones sobre sus intereses educativos."}
                                 images={[akdemy16]}
                                 playLink="https://react-akdemy-project.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/Laravel-AkdemyProject"

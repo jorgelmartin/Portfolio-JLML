@@ -18,6 +18,8 @@ export const Stack = () => {
     { name: "MySQL", description: "A widely used relational database management system for storing and managing data." },
     { name: "Sequelize", description: "A Node.js library that provides object-relational mapping (ORM) for interacting with SQL databases." },
     { name: "JWT", description: "Used for authentication and authorization in web applications and API services." },
+    { name: "NoSQL", description: "Used for authentication and authorization in web applications and API services." },
+    { name: "Mongoose", description: "Used for authentication and authorization in web applications and API services." },
     { name: "Express", description: "A web application framework for Node.js that simplifies API creation and route handling." },
     { name: "PHP", description: "A PHP development framework that facilitates the creation of robust and secure web applications." },
     { name: "Laravel", description: "A PHP development framework that facilitates the creation of robust and secure web applications." },
@@ -43,13 +45,16 @@ export const Stack = () => {
     <>
       <Container
         style={{
-          marginTop: '1em',
+          marginTop: '0.3em',
+          // display:'flex',
+          // justifyContent:'center',
+          // alignItems:'center'
         }}>
-        <div className="stackContainer">
+        <div className="stackContainer" >
         
-          <Row>
-            <Col xs={12} lg={6}>
-              <Card className="cardStack">
+          <Row >
+            <Col xs={12} lg={6}  className="d-flex justify-content-center">
+              <Card className="cardStack" >
                 <h3 className="techTitle">Frontend</h3>
                 <div className="techName">
                   {frontendTechnologies.map((tech, i) => (
@@ -61,7 +66,7 @@ export const Stack = () => {
                 </div>
               </Card>
             </Col>
-            <Col xs={12} lg={6}>
+            <Col xs={12} lg={6} className="d-flex justify-content-center">
               <Card className="cardStack">
                 <h3 className="techTitle">Backend</h3>
                 <div className="techName">
@@ -74,7 +79,7 @@ export const Stack = () => {
                 </div>
               </Card>
             </Col>
-            <Col xs={12} lg={6}>
+            <Col xs={12} lg={6} className="d-flex justify-content-center">
               <Card className="cardStack">
                 <h3 className="techTitle">Tools and Version Control</h3>
                 <div className="techName">
@@ -87,7 +92,7 @@ export const Stack = () => {
                 </div>
               </Card>
             </Col>
-            <Col xs={12} lg={6}>
+            <Col xs={12} lg={6} className="d-flex justify-content-center">
               <Card className="cardStack"
                 style={{
                   // marginTop: '2em'

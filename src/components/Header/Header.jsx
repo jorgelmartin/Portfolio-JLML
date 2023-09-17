@@ -15,13 +15,13 @@ export const Header = () => {
 
     // CHECKING WHERE IS THE USER LOCATED AND PAINTING THE TEXT 
     const isProjects = location.pathname === '/projects';
-    const projectsStyle = isProjects ? { color: 'rgb(96, 96, 96)', textShadow: '0 0 0.1em blue' } : {};
+    const projectsStyle = isProjects ? { color: 'rgb(96, 96, 96)', textShadow: '0 0.08em 0.08em blue' } : {};
 
     const isStack = location.pathname === '/stack';
-    const stackStyle = isStack ? { color: 'rgb(96, 96, 96)', textShadow: '0 0 0.1em green' } : {};
+    const stackStyle = isStack ? { color: 'rgb(96, 96, 96)', textShadow: '0 0.08em 0.08em green' } : {};
 
     const isContact = location.pathname === '/contact';
-    const contactStyle = isContact ? { color: 'rgb(96, 96, 96)', textShadow: '0 0 0.1em yellow' } : {};
+    const contactStyle = isContact ? { color: 'rgb(96, 96, 96)', textShadow: '0 0.08em 0.08em yellow' } : {};
 
 
     return (

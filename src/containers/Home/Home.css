@@ -1,13 +1,14 @@
 .containerHome {
-    width: 100%;
-    height: 100%;
+   
+    /* height: 100vh;
+    width: vw; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .nameStyle {
-    font-size: 2.5em;
+    /* font-size: 5em; */
     text-transform: uppercase;
     font-family: Arial, sans-serif;
     letter-spacing: 0.2em;
@@ -15,13 +16,13 @@
     -webkit-background-clip: text;
     /* -webkit-text-fill-color: transparent; */
     text-align: center;
-    text-shadow: 0 0 0.5em rgb(222, 85, 85), 0 0 1em rgba(181, 88, 231, 0.8), 0 0 1.5em rgba(255, 255, 255, 0.8);
-    box-shadow: rgba(46, 249, 0, 0.442) 0px 1.875em 3.75em -0.75em inset,
-    rgba(255, 247, 7, 0.307) 0px 1.125em 2.25em -1.125em inset,
+    text-shadow: 0 0 0.5em rgb(222, 85, 85), 0 0 1em rgba(181, 88, 231, 0.8), 0 0 1.5em rgba(255, 255, 255, 0.8), 0 0.8em 0.1em  rgba(255, 0, 0, 0.8);
+    box-shadow: rgba(46, 249, 0, 0.442) 0em 1.875em 3.75em -0.75em inset,
+    rgba(255, 247, 7, 0.307) 0em 1.125em 2.25em -1.125em inset,
     rgba(255, 247, 7, 0.343) 0em 1.875em 3.75em -0.75em inset,
     rgba(255, 247, 7, 0.634) 0em 0.125em 1.25em 0.125em;
     border-radius: 2em;
-    padding: 0.3em;
+    padding: 0.4em;
     color: black;
     animation: growText 3s ease-in-out forwards;
 }
@@ -31,6 +32,7 @@
     }
     100% {
         font-size: 2.5em; /* Tamaño máximo */
+        text-shadow: 0 0.1em 0.1em  rgba(255, 0, 0, 0.8);
     }
 }
 

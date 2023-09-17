@@ -1,6 +1,5 @@
 import React from "react";
 import './Home.css';
-import { Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 export const Home = () => {

@@ -51,8 +51,9 @@ export const Project = ({ title, description, images, gitHubLink, playLink }) =>
 
                 }}>
                 <h5 style={{
+                    // color:'white',
                     fontSize: '1.6em',
-                    textShadow: '0.05em 0.05em 0.06em rgba(232, 221, 98, 0.5)'
+                    // textShadow: '0.05em 0.05em 0.06em rgb(255, 222, 10)'
                 }}><strong>{title}</strong></h5>
                 {/* Botón "Images" en el componente Project */}
                 <div style={{
@@ -93,7 +94,6 @@ export const Project = ({ title, description, images, gitHubLink, playLink }) =>
                         <PortfolioButton
                             href={playLink}
                             text={"Play"}
-                            imageSrc={""}
                         />
 
                         {/* REPOSITORY BUTTON */}
