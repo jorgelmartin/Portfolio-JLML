@@ -33,16 +33,16 @@ export const Contact = () => {
                     imageSrc={""}
                 />
                 <PortfolioButton
-                    href={"https://github.com/jorgemctin"}
-                    text={"GitHub"}
-                    imageSrc={""}
-                />
-
-                <PortfolioButton
                     onClick={handleOpenModal}
                     text={"CV"}
 
                 />
+                <PortfolioButton
+                    href={"https://github.com/jorgemctin"}
+                    text={"GitHub"}
+                />
+
+                
                
             </div> {showModal && <LanguageModal show={showModal} onClose={handleCloseModal} />}
         </div>
