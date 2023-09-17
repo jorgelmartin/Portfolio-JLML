@@ -55,7 +55,7 @@ export const Projects = () => {
                         <div className="projectConsole">
                             <Project
                                 title={"Video Console with CSS"}
-                                description={"Proyecto de consola portátil recreada con precisión utilizando HTML5, CSS3. Para una interacción más dinámica con el usuario se utiliza JavaScript que al presionar el botón START se active y desactive la pantalla con la imagen intro del juego Mobile Leyends."}
+                                description={"Proyecto de consola portátil recreada con precisión utilizando HTML5, CSS3. Para una interacción más dinámica con el usuario se utiliza JavaScript que al presionar el botón START se active y desactive la pantalla con la imagen intro del juego Mobile Leyends. Por el momento no apto para móviles."}
                                 images={[consoleImage1, consoleImage2, consoleImage3]}
                                 playLink="https://jorgemctin.github.io/VideoConsoleCSS/"
                                 gitHubLink="https://github.com/jorgemctin/VideoConsoleCSS"
