@@ -4,7 +4,7 @@ import './PortfolioButton.css';
 //PORTFOLIO BUTTON
 export const PortfolioButton = ({ onClick, imageSrc, text, href }) => {
     return (
-        <div className='borderAnother'>
+        <div>
             <a href={href} target="_blank" rel="noopener noreferrer">
                 <button className="ButtonPortfolio" onClick={onClick}>
                     {text}
