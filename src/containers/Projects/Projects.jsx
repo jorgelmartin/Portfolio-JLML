@@ -33,7 +33,7 @@ import akdemy12 from '../../assets/Akdemy/student.jpeg';
 import akdemy13 from '../../assets/Akdemy/inscription.png';
 import akdemy14 from '../../assets/Akdemy/inscriptionok.png';
 import akdemy15 from '../../assets/Akdemy/myprograms.png';
-import akdemy16 from '../../assets/Akdemy/backakdemy.png';
+import akdemy16 from '../../assets/Akdemy/BBDDakdemy.png';
 import Dental1 from '../../assets/DentalClinic/BackDental.png';
 import Dental2 from '../../assets/DentalClinic/home.jpeg';
 import Dental3 from '../../assets/DentalClinic/detail.png';
