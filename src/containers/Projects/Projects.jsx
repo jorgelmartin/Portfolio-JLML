@@ -118,7 +118,7 @@ export const Projects = () => {
                         </div>
                     </Col>
                     <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                        <div className="">
+                        <div className="projectConsole">
                             <Project
                                 title={"Game MasterMind JS"}
                                 description={"MasterMind es un juego en línea que combina JavaScript, Bootstrap, HTML y CSS para ofrecer una experiencia interactiva. Los jugadores pueden comenzar ingresando su nombre y eligiendo un nivel de dificultad, que determina la cantidad de intentos y colores disponibles. Los jugadores seleccionan colores para adivinar una combinación secreta. El botón 'Comprobar' verifica si la elección es correcta. También hay un menú de ayuda con información sobre cómo jugar y detalles sobre el juego. El objetivo es acertar la combinación secreta dentro de los intentos disponibles."}
