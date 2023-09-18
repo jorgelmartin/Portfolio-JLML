@@ -33,7 +33,7 @@ import akdemy12 from '../../assets/Akdemy/student.jpeg';
 import akdemy13 from '../../assets/Akdemy/inscription.png';
 import akdemy14 from '../../assets/Akdemy/inscriptionok.png';
 import akdemy15 from '../../assets/Akdemy/myprograms.png';
-import akdemy16 from '../../assets/Akdemy/BBDDakdemy.png';
+import akdemy16 from '../../assets/Akdemy/backakdemy.png';
 import Dental1 from '../../assets/DentalClinic/BackDental.png';
 import Dental2 from '../../assets/DentalClinic/home.jpeg';
 import Dental3 from '../../assets/DentalClinic/detail.png';
@@ -118,7 +118,7 @@ export const Projects = () => {
                         </div>
                     </Col>
                     <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                        <div className="projectConsole">
+                        <div className="">
                             <Project
                                 title={"Game MasterMind JS"}
                                 description={"MasterMind es un juego en línea que combina JavaScript, Bootstrap, HTML y CSS para ofrecer una experiencia interactiva. Los jugadores pueden comenzar ingresando su nombre y eligiendo un nivel de dificultad, que determina la cantidad de intentos y colores disponibles. Los jugadores seleccionan colores para adivinar una combinación secreta. El botón 'Comprobar' verifica si la elección es correcta. También hay un menú de ayuda con información sobre cómo jugar y detalles sobre el juego. El objetivo es acertar la combinación secreta dentro de los intentos disponibles."}

@@ -45,10 +45,7 @@ export const Stack = () => {
     <>
       <Container
         style={{
-          marginTop: '0.3em',
-          // display:'flex',
-          // justifyContent:'center',
-          // alignItems:'center'
+          marginTop: '0.3em'
         }}>
         <div className="stackContainer" >
         
@@ -60,7 +57,6 @@ export const Stack = () => {
                   {frontendTechnologies.map((tech, i) => (
                     <div className="techNameMap" key={i}>
                       <h6>{tech.name}</h6>
-                      {/* <p>{tech.description}</p> */}
                     </div>
                   ))}
                 </div>

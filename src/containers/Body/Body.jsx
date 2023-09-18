@@ -12,7 +12,7 @@ export const Body = () => {
             <Routes>
                 <Route path="*" element={<Navigate to="/" />} />
                 <Route path="*" element={<Navigate to="/" />} />
-               <Route path="/" element={<Home />} /> 
+                <Route path="/" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/stack" element={<Stack />} />

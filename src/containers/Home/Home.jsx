@@ -3,13 +3,11 @@ import './Home.css';
 import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
-    const navigate = useNavigate(); // Obtiene la función de navegación
+    const navigate = useNavigate(); 
 
     const handleHomeDesignClick = () => {
-        // Redirige al usuario a la página Projects al hacer clic en homeDesign
         navigate("/projects");
     };
-  
 
     return (
         <>

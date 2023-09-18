@@ -8,7 +8,6 @@ export const ImageGallery = ({ description, images, toggleGallery, galleryVisibl
         <div>
             {/* MODAL SHOWING THE PROJECTS PICTURES */}
             <Modal show={galleryVisible} onHide={toggleGallery} style={{
-                // backgroundColor:'black'
             }}>
                 <Modal.Header closeButton>
                     <Modal.Title>Gallery</Modal.Title>
@@ -20,7 +19,6 @@ export const ImageGallery = ({ description, images, toggleGallery, galleryVisibl
                             maxHeight: '24em',
                             minWidth: '20em'
                         }} />
-
                     </div>
                     {description}
                 </Modal.Body>

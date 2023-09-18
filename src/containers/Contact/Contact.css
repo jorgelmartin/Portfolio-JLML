@@ -5,6 +5,7 @@
 .contactData {
   height: 15em;
   width: 15em;
+  /* background-color: aqua; */
   /* background: linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%rgba(0, 0, 0, 0.065)
     background: -webkit-linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%);
     background: -moz-linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%); */
@@ -27,6 +28,8 @@ border: solid   0.09em rgb(252, 184, 21);
 
 
 .dataData {
+  /* background-color: aqua;
+  border-radius: 2em; */
   margin-top: 3em;
   color: rgb(199, 134, 22);
   /* position: absolute;
