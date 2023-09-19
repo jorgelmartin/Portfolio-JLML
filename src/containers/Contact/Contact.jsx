@@ -6,6 +6,7 @@ import { LanguageModal } from "../../components/LanguageModal/LanguageModal";
 export const Contact = () => {
     const [showModal, setShowModal] = useState(false);
 
+    //HANDLE MODAL OF LANGUAGES CV
     const handleOpenModal = () => {
         setShowModal(true);
     };
@@ -15,6 +16,8 @@ export const Contact = () => {
     };
 
     return (
+
+        //CONTAINER CONTACT
         <div className="containerContact">
             <div className="contactData">
                 <div className="dataData">
@@ -26,6 +29,8 @@ export const Contact = () => {
                     </strong>
                 </div>
             </div>
+
+            {/* BUTTON LINKEDIN, CV'S AND GITHUB */}
             <div className="buttonsContact">
                 <PortfolioButton
                     href={"https://www.linkedin.com/in/jorge-luis-martin-lorenzo/"}
@@ -41,9 +46,6 @@ export const Contact = () => {
                     href={"https://github.com/jorgemctin"}
                     text={"GitHub"}
                 />
-
-                
-               
             </div> {showModal && <LanguageModal show={showModal} onClose={handleCloseModal} />}
         </div>
     );

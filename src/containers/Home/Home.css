@@ -1,20 +1,15 @@
 .containerHome {
-   
-    /* height: 100vh;
-    width: vw; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .nameStyle {
-    /* font-size: 5em; */
     text-transform: uppercase;
     font-family: Arial, sans-serif;
     letter-spacing: 0.2em;
     background: linear-gradient(45deg, #ffcc00, #ff6600);
     -webkit-background-clip: text;
-    /* -webkit-text-fill-color: transparent; */
     text-align: center;
     text-shadow: 0 0 0.5em rgb(222, 85, 85), 0 0 1em rgba(181, 88, 231, 0.8), 0 0 1.5em rgba(255, 255, 255, 0.8), 0 0.8em 0.1em  rgba(255, 0, 0, 0.8);
     box-shadow: rgba(46, 249, 0, 0.442) 0em 1.875em 3.75em -0.75em inset,
@@ -28,10 +23,10 @@
 }
 @keyframes growText {
     0% {
-        font-size: 0.1em; /* Tamaño mínimo inicial */
+        font-size: 0.1em; 
     }
     100% {
-        font-size: 2.5em; /* Tamaño máximo */
+        font-size: 2.5em; 
         text-shadow: 0 0.1em 0.1em  rgba(255, 0, 0, 0.8);
     }
 }
@@ -59,7 +54,6 @@
 
 }
 
-
 @keyframes goAround {
     0% {
         transform: rotate(0deg);
@@ -69,12 +63,3 @@
         transform: rotate(360deg);
     }
 }
-
-/* @keyframes moveUp {
-    0% {
-      transform: translateY(-100%);
-    }
-    100% {
-      transform: translateY(100%);
-    }
-  }  */

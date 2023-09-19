@@ -3,6 +3,8 @@ import './Stack.css';
 import { Container, Card, Row, Col } from "react-bootstrap";
 
 export const Stack = () => {
+
+  //TECHNOLOGIES 
   const frontendTechnologies = [
     { name: "HTML", description: "It is the markup language used to create the structure and content of a web page." },
     { name: "CSS", description: "Used to style and design the web page, controlling the visual presentation." },
@@ -48,10 +50,9 @@ export const Stack = () => {
           marginTop: '0.3em'
         }}>
         <div className="stackContainer" >
-        
           <Row >
             <Col xs={12} lg={6}  className="d-flex justify-content-center">
-              <Card className="cardStack" >
+              <Card className="cardStack">
                 <h3 className="techTitle">Frontend</h3>
                 <div className="techName">
                   {frontendTechnologies.map((tech, i) => (

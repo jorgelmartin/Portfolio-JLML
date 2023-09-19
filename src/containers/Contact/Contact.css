@@ -2,53 +2,38 @@
   margin-top: 10em;
   background-color: rgba(0, 255, 255, 0);
 }
+
 .contactData {
   height: 15em;
   width: 15em;
-  /* background-color: aqua; */
-  /* background: linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%rgba(0, 0, 0, 0.065)
-    background: -webkit-linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%);
-    background: -moz-linear-gradient(90deg,#9e9e9e 0%, #e0e0e0 40%, #777877 80%); */
-    background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
   border-radius: 10em;
   text-align: center;
-  /* position: relative; */
   font-size: large;
-  /* background-image: url('/src/assets/space3.png');
-  background-size: -100% -100% -100% -100%; 
-  background-repeat: no-repeat;  */
-border: solid   0.09em rgb(252, 184, 21);
+  border: solid 0.09em rgb(252, 184, 21);
   color: rgb(0, 0, 0);
-  box-shadow: rgba(0, 0, 0, 0.17) 0em -1.15em 1.25em 0em inset,rgba(188, 74, 74, 0) 0em -0.1em 3em 1em, rgba(0, 0, 0, 0.79) 0em -1.8em 1.5em 8em inset, rgba(0, 0, 0, 0.1) 0em -3.95em 2em 0em inset, rgba(0, 0, 0, 0.06) 0em 0.08em 0.04em, rgba(0, 0, 0, 0.09) 0em 0.16em 0.08em, rgba(0, 0, 0, 0.09) 0em 0.32em 0.16em, rgba(0, 0, 0, 0.09) 0em 0.64em 0.32em, rgba(0, 0, 0, 0.09) 0em 1.28em 0.64em, 0 0 5em rgb(238, 185, 50);
-  /* transition: background-color 4s ease; */
+  box-shadow: rgba(0, 0, 0, 0.17) 0em -1.15em 1.25em 0em inset, rgba(188, 74, 74, 0) 0em -0.1em 3em 1em, rgba(0, 0, 0, 0.79) 0em -1.8em 1.5em 8em inset, rgba(0, 0, 0, 0.1) 0em -3.95em 2em 0em inset, rgba(0, 0, 0, 0.06) 0em 0.08em 0.04em, rgba(0, 0, 0, 0.09) 0em 0.16em 0.08em, rgba(0, 0, 0, 0.09) 0em 0.32em 0.16em, rgba(0, 0, 0, 0.09) 0em 0.64em 0.32em, rgba(0, 0, 0, 0.09) 0em 1.28em 0.64em, 0 0 5em rgb(238, 185, 50);
   animation: around 20s;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 
 .dataData {
-  /* background-color: aqua;
-  border-radius: 2em; */
   margin-top: 3em;
   color: rgb(199, 134, 22);
-  /* position: absolute;
-  top: 50%; */
- /* font-size: 1.05em; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
   text-align: center;
   text-shadow: 0.05em 0.3em 1em rgba(148, 26, 255, 0.5);
   animation: moveUpDown infinite 15s linear;
   margin-left: 1.3em;
   position: absolute;
-  /* left: 50%; */
-  
 }
+
 @keyframes moveUpDown {
   0% {
     transform: translateY(-190%);
   }
+
   100% {
     transform: translateY(140%);
   }
@@ -58,33 +43,28 @@ border: solid   0.09em rgb(252, 184, 21);
   0% {
     transform: rotate(0deg);
   }
+
   100% {
-    transform:rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
-
-
 .buttonsContact {
-  /* background-color: antiquewhite; */
   text-align: center;
   margin-top: 3em;
   display: flex;
-  /* flex-direction: row; */
   border-radius: 2em;
   padding: 0.5em;
   border: solid 0.08em rgba(255, 197, 8, 0.953);
-  /* box-shadow: ; */
   background-color: rgba(0, 255, 255, 0.133);
-  /* box-shadow: rgba(46, 249, 0, 0.442) 0em 1.875em 3.75em -0.75em inset; */
   box-shadow: rgba(0, 0, 0, 0.17) 0em -1.4375em 1.5625em 0em inset,
-            rgba(0, 0, 0, 0.15) 0em -2.25em 1.875em 0em inset,
-            rgba(0, 0, 0, 0.1) 0em -4.9375em 2.5em 0em inset,
-            rgba(0, 0, 0, 0.06) 0em 0.125em 0.0625em,
-            rgba(0, 0, 0, 0.09) 0em 0.25em 0.125em,
-            rgba(0, 0, 0, 0.09) 0em 0.5em 0.25em,
-            rgba(0, 0, 0, 0.09) 0em 1em 0.5em,
-            rgba(255, 247, 7, 0.307) 0em 1.125em 2.25em 1.125em,
-            inset 0 0 3em rgba(207, 16, 255, 0.638),
-            rgba(0, 0, 0, 0.09) 0em 2em 1em;
+    rgba(0, 0, 0, 0.15) 0em -2.25em 1.875em 0em inset,
+    rgba(0, 0, 0, 0.1) 0em -4.9375em 2.5em 0em inset,
+    rgba(0, 0, 0, 0.06) 0em 0.125em 0.0625em,
+    rgba(0, 0, 0, 0.09) 0em 0.25em 0.125em,
+    rgba(0, 0, 0, 0.09) 0em 0.5em 0.25em,
+    rgba(0, 0, 0, 0.09) 0em 1em 0.5em,
+    rgba(255, 247, 7, 0.307) 0em 1.125em 2.25em 1.125em,
+    inset 0 0 3em rgba(207, 16, 255, 0.638),
+    rgba(0, 0, 0, 0.09) 0em 2em 1em;
 }

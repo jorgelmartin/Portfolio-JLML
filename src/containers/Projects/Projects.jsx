@@ -48,11 +48,13 @@ import { Project } from "../../components/Project/Project";
 
 export const Projects = () => {
     return (
+
+        // PROJECTS - JLML
         <Container>
             <div className="containerProjects">
                 <Row>
                     <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                        <div className="projectConsole">
+                        <div>
                             <Project
                                 title={"Video Console with CSS"}
                                 description={"Proyecto de consola portátil recreada con precisión utilizando HTML5, CSS3. Para una interacción más dinámica con el usuario se utiliza JavaScript que al presionar el botón START se active y desactive la pantalla con la imagen intro del juego Mobile Leyends. Por el momento no apto para móviles."}
@@ -63,7 +65,7 @@ export const Projects = () => {
                         </div>
                     </Col>
                     <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                        <div className="projectConsole">
+                        <div>
                             <Project
                                 title={"Digital Menu Restaurant"}
                                 description={"El proyecto es un sitio web de carta de restaurante digital para un negocio de comida callejera. Ofrece un menú con opciones de inicio, carta y contacto, reseñas de clientes y la capacidad de hacer reservas con confirmación. Tecnologías: Bootstrap, HTML y CSS."}
@@ -74,7 +76,7 @@ export const Projects = () => {
                         </div>
                     </Col>
                     <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                        <div className="">
+                        <div>
                             <Project
                                 title={"Backend DentalClinic"}
                                 description={"Sistema de gestión de clínica dental con roles de pacientes y administradores/dentistas. Los pacientes pueden gestionar sus citas y perfiles, mientras que los administradores ven todos los pacientes y citas. Los pacientes también pueden ver su historial de citas con detalles de precios y tratamientos asociados."}
@@ -85,7 +87,7 @@ export const Projects = () => {
                         </div>
                     </Col>
                     <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                        <div className="">
+                        <div>
                             <Project
                                 title={"Frontend DentalClinic"}
                                 description={"Desarrollo y diseño FRONTEND de una aplicación funcional para una clínica dental. Los pacientes (role por defecto) una vez registrados podrán editar su perfil, crear la cita de interés, teniendo la oportunidad de escoger fecha, hora, servicio y dentista. También podrán ver el historial de sus citas, al igual que modificarla. El admin podrá ver todos las citas y usuarios registrados en la aplicación."}
@@ -96,7 +98,7 @@ export const Projects = () => {
                         </div>
                     </Col>
                     <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                        <div className="projectConsole">
+                        <div>
                             <Project
                                 title={"Backend AkdemyProject"}
                                 description={"El proyecto Akdemy es una aplicación que ofrece diferentes programas y convocatorias a sus usuarios. Los administradores tienen privilegios adicionales para gestionar convocatorias y solicitudes de inscripción. Los usuarios tendrán acceso a su propio perfil, donde podrán visualizar y editar su información personal. Además, podrán explorar todos los programas académicos ofrecidos por la institución, obtener detalles sobre cada uno de ellos y tomar decisiones sobre sus intereses educativos."}
@@ -107,10 +109,10 @@ export const Projects = () => {
                         </div>
                     </Col>
                     <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                        <div className="projectConsole">
+                        <div>
                             <Project
                                 title={"Frontend AkdemyProject"}
-                                description={"Akdemy es una aplicación de educación con múltiples programas y convocatorias. Los usuarios se registran y acceden a su perfil, donde pueden explorar programas académicos, solicitar inscripciones y editar su información personal. Los administradores gestionan las convocatorias y solicitudes de inscripción. Akdemy brinda una experiencia educativa completa y transparente, con un enfoque en la accesibilidad y facilidad de uso."}
+                                description={"En Akdemy los usuarios se registran y acceden a su perfil, donde pueden explorar programas académicos, solicitar inscripciones y editar su información personal. Los administradores gestionan las convocatorias y solicitudes de inscripción. Akdemy brinda una experiencia educativa completa y transparente, con un enfoque en la accesibilidad y facilidad de uso."}
                                 images={[akdemy1, akdemy2, akdemy3, akdemy4, akdemy5, akdemy6, akdemy7, akdemy8, akdemy9, akdemy10, akdemy11, akdemy12, akdemy13, akdemy14, akdemy15 ]}
                                 playLink="https://react-akdemy-project.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/React-AkdemyProject"
@@ -118,7 +120,7 @@ export const Projects = () => {
                         </div>
                     </Col>
                     <Col xs={12} sm={6} className="d-flex justify-content-center align-items-center">
-                        <div className="projectConsole">
+                        <div>
                             <Project
                                 title={"Game MasterMind JS"}
                                 description={"MasterMind es un juego en línea que combina JavaScript, Bootstrap, HTML y CSS para ofrecer una experiencia interactiva. Los jugadores pueden comenzar ingresando su nombre y eligiendo un nivel de dificultad, que determina la cantidad de intentos y colores disponibles. Los jugadores seleccionan colores para adivinar una combinación secreta. El botón 'Comprobar' verifica si la elección es correcta. También hay un menú de ayuda con información sobre cómo jugar y detalles sobre el juego. El objetivo es acertar la combinación secreta dentro de los intentos disponibles."}
