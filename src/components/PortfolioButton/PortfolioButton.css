@@ -20,7 +20,7 @@
 
 .ButtonPortfolio:hover{
     box-shadow: none;
-    box-shadow: 0.02em 0.02em 0.2em 0.1em rgba(67, 201, 26, 0.908),inset 0 0 1em rgba(207, 16, 255, 0.638);
+    box-shadow: 0.02em 0.02em 0.2em 0.1em rgba(67, 201, 26, 0.908);
     color: #ffffff;
     text-shadow:  0 0.09em 0.1em  rgba(13, 13, 13, 0.8);
 }
