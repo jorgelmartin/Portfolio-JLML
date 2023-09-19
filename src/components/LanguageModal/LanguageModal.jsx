@@ -8,7 +8,7 @@ export const LanguageModal = ({ show, onClose  }) => {
             <Modal show={show} onHide={onClose}>
                 <Modal.Header closeButton>
                     <Modal.Title >
-                        Select language
+                        Seleciona un idioma
                         </Modal.Title>
                 </Modal.Header>
                 <Modal.Body className='d-flex'>

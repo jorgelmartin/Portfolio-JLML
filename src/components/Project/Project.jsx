@@ -38,9 +38,7 @@ export const Project = ({ title, description, images, gitHubLink, playLink }) =>
                     maxWidth: '22em',
                     padding: '1em',
                     margin: '0.2em',
-                    borderRadius: '2em',
-                    // border: 'solid #b758df84 0.2em',
-                    // boxShadow: 'rgba(50, 50, 93, 0.25) 0em 3.125em 6.25em -1.25em, rgba(0, 0, 0, 0.3) 0em 1.875em 3.75em -1.875em, rgba(10, 37, 64, 0.35) 0em -0.125em 0.375em 0em inset'
+                    borderRadius: '2em'
                 }}>
                 <h5 style={{
                     fontSize: '1.6em',

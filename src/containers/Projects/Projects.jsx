@@ -79,7 +79,7 @@ export const Projects = () => {
                         <div>
                             <Project
                                 title={"Backend DentalClinic"}
-                                description={"Sistema de gestión de clínica dental con roles de pacientes y administradores/dentistas. Los pacientes pueden gestionar sus citas y perfiles, mientras que los administradores ven todos los pacientes y citas. Los pacientes también pueden ver su historial de citas con detalles de precios y tratamientos asociados."}
+                                description={"Sistema de gestión de clínica dental con roles de pacientes y administradores/dentistas. Los pacientes pueden gestionar sus citas y perfiles, mientras que los administradores ven todos los pacientes y citas. Los pacientes también pueden ver su historial de citas con detalles y tratamientos asociados."}
                                 images={[Dental1]}
                                 playLink="https://react-dentalclinic.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/Backend-DentalClinic"
@@ -90,7 +90,7 @@ export const Projects = () => {
                         <div>
                             <Project
                                 title={"Frontend DentalClinic"}
-                                description={"Desarrollo y diseño FRONTEND de una aplicación funcional para una clínica dental. Los pacientes (role por defecto) una vez registrados podrán editar su perfil, crear la cita de interés, teniendo la oportunidad de escoger fecha, hora, servicio y dentista. También podrán ver el historial de sus citas, al igual que modificarla. El admin podrá ver todos las citas y usuarios registrados en la aplicación."}
+                                description={"Desarrollo y diseño FRONTEND de una aplicación funcional para una clínica dental. Los pacientes (role por defecto) una vez registrados podrán editar su perfil, crear la cita de interés, teniendo la oportunidad de escoger fecha, hora, servicio y dentista. También podrán ver el historial de sus citas, al igual que modificarla. El admin podrá ver todos las citas y usuarios registrados en la aplicación. Dale Play y pruebalo. Admin: admin@dentist.com - Hola1234"}
                                 images={[Dental2, Dental3, Dental4, Dental5, Dental6, Dental7, Dental8, Dental9]}
                                 playLink="https://react-dentalclinic.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/Frontend-DentalClinic"
@@ -112,7 +112,7 @@ export const Projects = () => {
                         <div>
                             <Project
                                 title={"Frontend AkdemyProject"}
-                                description={"En Akdemy los usuarios se registran y acceden a su perfil, donde pueden explorar programas académicos, solicitar inscripciones y editar su información personal. Los administradores gestionan las convocatorias y solicitudes de inscripción. Akdemy brinda una experiencia educativa completa y transparente, con un enfoque en la accesibilidad y facilidad de uso."}
+                                description={"En Akdemy los usuarios se registran y acceden a su perfil, donde pueden explorar programas académicos, solicitar inscripciones y editar su información personal. Los administradores gestionan las convocatorias y solicitudes de inscripción. Akdemy brinda una experiencia educativa completa y transparente, con un enfoque en la accesibilidad y facilidad de uso. Dale Play y pruebalo. Admin: admin@admin.com - Hola1234"}
                                 images={[akdemy1, akdemy2, akdemy3, akdemy4, akdemy5, akdemy6, akdemy7, akdemy8, akdemy9, akdemy10, akdemy11, akdemy12, akdemy13, akdemy14, akdemy15 ]}
                                 playLink="https://react-akdemy-project.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/React-AkdemyProject"
@@ -123,7 +123,7 @@ export const Projects = () => {
                         <div>
                             <Project
                                 title={"Game MasterMind JS"}
-                                description={"MasterMind es un juego en línea que combina JavaScript, Bootstrap, HTML y CSS para ofrecer una experiencia interactiva. Los jugadores pueden comenzar ingresando su nombre y eligiendo un nivel de dificultad, que determina la cantidad de intentos y colores disponibles. Los jugadores seleccionan colores para adivinar una combinación secreta. El botón 'Comprobar' verifica si la elección es correcta. También hay un menú de ayuda con información sobre cómo jugar y detalles sobre el juego. El objetivo es acertar la combinación secreta dentro de los intentos disponibles."}
+                                description={"MasterMind es un juego de lógica. Los jugadores pueden comenzar ingresando su nombre y eligiendo un nivel de dificultad, que determina la cantidad de intentos y colores disponibles. Seleccionan colores para adivinar una combinación secreta. El botón 'Comprobar' verifica si la elección es correcta. También hay un menú de ayuda con información sobre cómo jugar y detalles sobre el juego. El objetivo es acertar la combinación secreta dentro de los intentos disponibles."}
                                 images={[mm1, mm2, mm3, mm4, mm5, mm6, mm7, mm8, mm9]}
                                 playLink="https://jorgemctin.github.io/Game-MasterMind/"
                                 gitHubLink="https://github.com/jorgemctin/Game-MasterMind"

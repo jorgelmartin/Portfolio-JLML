@@ -47,7 +47,7 @@ export const Stack = () => {
     <>
       <Container
         style={{
-          marginTop: '0.3em'
+          marginTop: '3.5em'
         }}>
         <div className="stackContainer" >
           <Row >
