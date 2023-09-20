@@ -13,11 +13,15 @@ export const ImageGallery = ({ description, images, toggleGallery, galleryVisibl
                     <Modal.Title>Gallery</Modal.Title>
                 </Modal.Header>
                 <Modal.Body >
-                    <div className="text-center">
+                    <div className="text-center img-fluid">
                         <img src={images[currentImageIndex]} alt="" style={{
                             minHeight: '13em',
                             maxHeight: '24em',
-                            minWidth: '20em'
+                            // minWidth: '20em',
+                            boxShadow:'0 0 1em rgba(82, 80, 83, 0.638)',
+                            maxWidth:'100%',
+                            borderRadius:'1em',
+                            marginBottom:'0.7em'
                         }} />
                     </div>
                     {description}

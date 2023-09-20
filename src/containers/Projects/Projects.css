@@ -8,9 +8,9 @@
 }
 
 img {
-  max-width: 100%;
-  border-radius: 1em;
-  margin-bottom:  0.7em;
-  box-shadow:  0 0 1em rgba(82, 80, 83, 0.638);
+  /* max-width: 100%; */
+  /* border-radius: 1em;
+  margin-bottom:  0.7em; */
+  /* box-shadow:  0 0 1em rgba(82, 80, 83, 0.638); */
   /* transition: transform 0.2s ease; */
 }

@@ -112,7 +112,7 @@ export const Projects = () => {
                         <div>
                             <Project
                                 title={"Frontend AkdemyProject"}
-                                description={"En Akdemy los usuarios se registran y acceden a su perfil, donde pueden explorar programas académicos, solicitar inscripciones y editar su información personal. Los administradores gestionan las convocatorias y solicitudes de inscripción. Akdemy brinda una experiencia educativa completa y transparente, con un enfoque en la accesibilidad y facilidad de uso. Dale Play y pruebalo. Admin: admin@admin.com - Hola1234"}
+                                description={"En Akdemy los usuarios se registran y acceden a su espacio, donde pueden explorar programas académicos, solicitar inscripciones y editar su información personal. Los administradores gestionan las convocatorias y solicitudes de inscripción. Akdemy brinda una experiencia educativa completa y transparente, con un enfoque en la accesibilidad y facilidad de uso. Dale Play y pruebalo. Admin: admin@admin.com - Hola1234"}
                                 images={[akdemy1, akdemy2, akdemy3, akdemy4, akdemy5, akdemy6, akdemy7, akdemy8, akdemy9, akdemy10, akdemy11, akdemy12, akdemy13, akdemy14, akdemy15 ]}
                                 playLink="https://react-akdemy-project.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/React-AkdemyProject"
