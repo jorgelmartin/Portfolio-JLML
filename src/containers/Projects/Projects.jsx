@@ -39,11 +39,14 @@ import Dental2 from '../../assets/DentalClinic/home.jpeg';
 import Dental3 from '../../assets/DentalClinic/detail.png';
 import Dental4 from '../../assets/DentalClinic/login.png';
 import Dental5 from '../../assets/DentalClinic/register.png';
-import Dental6 from '../../assets/DentalClinic/patients.png';
-import Dental7 from '../../assets/DentalClinic/users.png';
-import Dental8 from '../../assets/DentalClinic/citas.png';
-import Dental9 from '../../assets/DentalClinic/detallecita.png';
-import Dental10 from '../../assets/DentalClinic/home1.jpeg';
+import Dental6 from '../../assets/DentalClinic/admin.jpeg';
+import Dental7 from '../../assets/DentalClinic/patients.png';
+import Dental8 from '../../assets/DentalClinic/perfil.png';
+import Dental9 from '../../assets/DentalClinic/users.png';
+import Dental10 from '../../assets/DentalClinic/citas.png';
+import Dental11 from '../../assets/DentalClinic/citapaciente.png';
+import Dental12 from '../../assets/DentalClinic/detallecita.png';
+import Dental13 from '../../assets/DentalClinic/home1.jpeg';
 import { Container, Row, Col } from "react-bootstrap";
 import { Project } from "../../components/Project/Project";
 
@@ -92,7 +95,7 @@ export const Projects = () => {
                             <Project
                                 title={"Frontend DentalClinic"}
                                 description={"Desarrollo y diseño FRONTEND de una aplicación funcional para una clínica dental. Los pacientes (role por defecto) una vez registrados podrán editar su perfil, crear la cita de interés, teniendo la oportunidad de escoger fecha, hora, servicio y dentista. También podrán ver el historial de sus citas, al igual que modificarla. El admin podrá ver todos las citas y usuarios registrados en la aplicación. Dale Play y pruebalo. Admin: admin@dentist.com - Hola1234"}
-                                images={[Dental2, Dental3, Dental4, Dental5, Dental6, Dental7, Dental8, Dental9, Dental10]}
+                                images={[Dental2, Dental3, Dental4, Dental5, Dental6, Dental7, Dental8, Dental9, Dental10, Dental11, Dental12, Dental13]}
                                 playLink="https://react-dentalclinic.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/Frontend-DentalClinic"
                             />
