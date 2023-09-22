@@ -5,7 +5,7 @@
 
 .projectCards {
     width: 17em;
-    border: solid 0.03em rgba(134, 56, 189, 0.508);
+    /* border: solid 0.03em rgba(134, 56, 189, 0.508); */
     transition: background-color 0.8s ease,
         box-shadow 0.8s ease;
     box-shadow: inset 0 0 3em rgba(207, 16, 255, 0.638);

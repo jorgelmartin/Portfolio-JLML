@@ -2,7 +2,9 @@
 
 ### Una aventura espacial🚀
 
-Como desarrollador Full Stack, he trabajado en varios proyectos emocionantes de la mano de GeeksHubs y para verlos de una manera más simple e interactiva he creado el Portfolio👨‍💻.
+Como desarrollador Full Stack, he tenido la oportunidad de trabajar en varios proyectos emocionantes y he creado el Portfolio para verlos de una manera más simple e interactiva👨‍💻.
+
+[DALE PLAY](https://portfolio-jlml.vercel.app/)
 
 #### Página de Inicio 🌟
 En la página de inicio, encontrarán mi nombre junto a un asteroide girando en el espacio. Es solo el comienzo del viaje.
@@ -15,7 +17,7 @@ En la página de proyectos, se puede explorar mis creaciones presentadas en form
 ![portfolioProjects](./src/assets/readme/portfolioProjects.jpeg)
 
 #### Página de Stack 🛰️
-Mi Stack tecnológico (por el momento) lenguajes de programación, herramientas y frameworks, que utilizo para crear.
+Mi Stack tecnológico (por ahora), lenguajes de programación, herramientas y frameworks, que utilizo para crear.
 
 ![portfolioStack](./src/assets/readme/portfolioStack.jpeg)
 
