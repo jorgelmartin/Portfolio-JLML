@@ -14,11 +14,11 @@ export const LanguageModal = ({ show, onClose  }) => {
                 <Modal.Body className='d-flex'>
                     <PortfolioButton
                     href={"https://laravel-akdemyproject-production.up.railway.app/images/JorgeLuisMartinLorenzoIngles.pdf"}
-                    text={"English"}
+                    text={"Inglés"}
                     />
                     <PortfolioButton
                     href={"https://laravel-akdemyproject-production.up.railway.app/images/JorgeLuisMartinLorenzo.pdf"}
-                    text={"Spanish"}
+                    text={"Español"}
                     />
                 </Modal.Body>
             </Modal>
