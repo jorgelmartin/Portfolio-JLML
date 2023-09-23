@@ -26,14 +26,15 @@ import akdemy5 from '../../assets/Akdemy/login.png';
 import akdemy6 from '../../assets/Akdemy/profileakdemy.png';
 import akdemy7 from '../../assets/Akdemy/admin.jpeg';
 import akdemy8 from '../../assets/Akdemy/convoadmin.png';
-import akdemy9 from '../../assets/Akdemy/detailconvo.jpeg';
-import akdemy10 from '../../assets/Akdemy/users.png';
-import akdemy11 from '../../assets/Akdemy/pending.png';
-import akdemy12 from '../../assets/Akdemy/student.jpeg';
-import akdemy13 from '../../assets/Akdemy/inscription.png';
-import akdemy14 from '../../assets/Akdemy/inscriptionok.png';
-import akdemy15 from '../../assets/Akdemy/myprograms.png';
-import akdemy16 from '../../assets/Akdemy/BBDDakdemy.png';
+import akdemy9 from '../../assets/Akdemy/create.png';
+import akdemy10 from '../../assets/Akdemy/detailconvo.jpeg';
+import akdemy11 from '../../assets/Akdemy/users.png';
+import akdemy12 from '../../assets/Akdemy/pending.png';
+import akdemy13 from '../../assets/Akdemy/student.jpeg';
+import akdemy14 from '../../assets/Akdemy/inscription.png';
+import akdemy15 from '../../assets/Akdemy/inscriptionok.png';
+import akdemy16 from '../../assets/Akdemy/myprograms.png';
+import akdemy17 from '../../assets/Akdemy/BBDDakdemy.png';
 import Dental1 from '../../assets/DentalClinic/BackDental.png';
 import Dental2 from '../../assets/DentalClinic/home.jpeg';
 import Dental3 from '../../assets/DentalClinic/detail.png';
@@ -94,7 +95,7 @@ export const Projects = () => {
                         <div>
                             <Project
                                 title={"Frontend DentalClinic"}
-                                description={"Desarrollo y diseño FRONTEND de una aplicación funcional para una clínica dental. Los pacientes (role por defecto) una vez registrados podrán editar su perfil, crear la cita de interés, teniendo la oportunidad de escoger fecha, hora, servicio y dentista. También podrán ver el historial de sus citas, al igual que modificarla. El admin podrá ver todos las citas y usuarios registrados en la aplicación. Dale Play y pruebalo. Admin: admin@dentist.com - Hola1234"}
+                                description={"Desarrollo y diseño FRONTEND de una aplicación funcional para una clínica dental. Los pacientes (role por defecto) una vez registrados podrán editar su perfil, crear la cita de interés, teniendo la oportunidad de escoger fecha, hora, servicio y dentista. También podrán ver el historial de sus citas, al igual que modificarla. El admin podrá ver todos las citas y usuarios registrados en la aplicación. Credenciales Admin: admin@dentist.com - Hola1234"}
                                 images={[Dental2, Dental3, Dental4, Dental5, Dental6, Dental7, Dental8, Dental9, Dental10, Dental11, Dental12, Dental13]}
                                 playLink="https://react-dentalclinic.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/Frontend-DentalClinic"
@@ -116,8 +117,8 @@ export const Projects = () => {
                         <div>
                             <Project
                                 title={"Frontend AkdemyProject"}
-                                description={"En Akdemy los usuarios se registran y acceden a su espacio, donde pueden explorar programas académicos, solicitar inscripciones y editar su información personal. Los administradores gestionan las convocatorias y solicitudes de inscripción. Akdemy brinda una experiencia educativa completa y transparente, con un enfoque en la accesibilidad y facilidad de uso. Dale Play y pruebalo. Admin: admin@admin.com - Hola1234"}
-                                images={[akdemy1, akdemy2, akdemy3, akdemy4, akdemy5, akdemy6, akdemy7, akdemy8, akdemy9, akdemy10, akdemy11, akdemy12, akdemy13, akdemy14, akdemy15 ]}
+                                description={"En Akdemy los usuarios se registran y acceden a su espacio, donde pueden explorar programas académicos, solicitar inscripciones y editar su información personal. Los administradores gestionan las convocatorias y solicitudes de inscripción. Akdemy brinda una experiencia educativa completa y transparente, con un enfoque en la accesibilidad y facilidad de uso. Credenciales Admin: admin@admin.com - Hola1234"}
+                                images={[akdemy1, akdemy2, akdemy3, akdemy4, akdemy5, akdemy6, akdemy7, akdemy8, akdemy9, akdemy10, akdemy11, akdemy12, akdemy13, akdemy14, akdemy15, akdemy17 ]}
                                 playLink="https://react-akdemy-project.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/React-AkdemyProject"
                             />

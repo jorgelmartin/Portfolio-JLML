@@ -1,11 +1,9 @@
 ## Portfolio - Jorge Luis Martin Lorenzo
 
-Como desarrollador Full Stack, he tenido la oportunidad de trabajar en varios proyectos emocionantes y he creado el Portfolio para verlos de una manera más simple e interactiva.
-
-[DALE PLAY](https://portfolio-jlml.vercel.app/)
+[PLAY](https://portfolio-jlml.vercel.app/)
 
 #### Página de Inicio 
-En la página de inicio, encontrarán mi nombre junto a un asteroide girando en el espacio. Es solo el comienzo del viaje.
+En la página de inicio, encontrarán mi nombre junto a un asteroide girando en el espacio.
 
 ![portfolioHome](./src/assets/readme/portfolioHome.jpeg)
 
