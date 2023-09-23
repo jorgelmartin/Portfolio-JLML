@@ -10,7 +10,7 @@ export const ImageGallery = ({ description, images, toggleGallery, galleryVisibl
             <Modal show={galleryVisible} onHide={toggleGallery} style={{
             }}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Gallery</Modal.Title>
+                    <Modal.Title>Galería</Modal.Title>
                 </Modal.Header>
                 <Modal.Body >
                     <div className="text-center img-fluid">

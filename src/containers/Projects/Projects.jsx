@@ -34,7 +34,8 @@ import akdemy13 from '../../assets/Akdemy/student.jpeg';
 import akdemy14 from '../../assets/Akdemy/inscription.png';
 import akdemy15 from '../../assets/Akdemy/inscriptionok.png';
 import akdemy16 from '../../assets/Akdemy/myprograms.png';
-import akdemy17 from '../../assets/Akdemy/BBDDakdemy.png';
+import akdemy17 from '../../assets/Akdemy/home2.jpeg';
+import akdemy18 from '../../assets/Akdemy/BBDDakdemy.png';
 import Dental1 from '../../assets/DentalClinic/BackDental.png';
 import Dental2 from '../../assets/DentalClinic/home.jpeg';
 import Dental3 from '../../assets/DentalClinic/detail.png';
@@ -107,7 +108,7 @@ export const Projects = () => {
                             <Project
                                 title={"Backend AkdemyProject"}
                                 description={"El proyecto Akdemy es una aplicación que ofrece diferentes programas y convocatorias a sus usuarios. Los administradores tienen privilegios adicionales para gestionar convocatorias y solicitudes de inscripción. Los usuarios tendrán acceso a su propio perfil, donde podrán visualizar y editar su información personal. Además, podrán explorar todos los programas académicos ofrecidos por la institución, obtener detalles sobre cada uno de ellos y tomar decisiones sobre sus intereses educativos."}
-                                images={[akdemy16]}
+                                images={[akdemy18]}
                                 playLink="https://react-akdemy-project.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/Laravel-AkdemyProject"
                             />
@@ -118,7 +119,7 @@ export const Projects = () => {
                             <Project
                                 title={"Frontend AkdemyProject"}
                                 description={"En Akdemy los usuarios se registran y acceden a su espacio, donde pueden explorar programas académicos, solicitar inscripciones y editar su información personal. Los administradores gestionan las convocatorias y solicitudes de inscripción. Akdemy brinda una experiencia educativa completa y transparente, con un enfoque en la accesibilidad y facilidad de uso. Credenciales Admin: admin@admin.com - Hola1234"}
-                                images={[akdemy1, akdemy2, akdemy3, akdemy4, akdemy5, akdemy6, akdemy7, akdemy8, akdemy9, akdemy10, akdemy11, akdemy12, akdemy13, akdemy14, akdemy15, akdemy17 ]}
+                                images={[akdemy1, akdemy2, akdemy3, akdemy4, akdemy5, akdemy6, akdemy7, akdemy8, akdemy9, akdemy10, akdemy11, akdemy12, akdemy13, akdemy14, akdemy15, akdemy16, akdemy17 ]}
                                 playLink="https://react-akdemy-project.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/React-AkdemyProject"
                             />
