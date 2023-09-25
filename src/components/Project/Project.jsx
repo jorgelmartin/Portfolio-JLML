@@ -36,9 +36,9 @@ export const Project = ({ title, description, images, gitHubLink, playLink }) =>
             <Card className="mt-2 projectCards"
                 style={{
                     maxWidth: '22em',
-                    padding: '1em',
-                    margin: '0.2em',
-                    borderRadius: '2em'
+                    padding: '0.86em',
+                    margin: '0.1em',
+                    borderRadius: '2.5em'
                 }}>
                 <h5 style={{
                     fontSize: '1.6em',
