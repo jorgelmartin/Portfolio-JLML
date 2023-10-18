@@ -131,7 +131,7 @@ export const Projects = () => {
                                 title={"Game MasterMind JS"}
                                 description={"MasterMind es un juego de lógica. Los jugadores pueden comenzar ingresando su nombre y eligiendo un nivel de dificultad, que determina la cantidad de intentos y colores disponibles. Seleccionan colores para adivinar una combinación secreta. El botón 'Comprobar' verifica si la elección es correcta. También hay un menú de ayuda con información sobre cómo jugar y detalles sobre el juego. El objetivo es acertar la combinación secreta dentro de los intentos disponibles."}
                                 images={[mm1, mm2, mm3, mm4, mm5, mm6, mm7, mm8, mm9]}
-                                playLink="https://jorgemctin.github.io/Game-MasterMind/"
+                                playLink="https://jorgemctin.github.io/GameMasterMind/"
                                 gitHubLink="https://github.com/jorgemctin/Game-MasterMind"
                             />
                         </div>
