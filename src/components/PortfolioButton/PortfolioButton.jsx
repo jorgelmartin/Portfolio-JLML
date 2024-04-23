@@ -8,7 +8,7 @@ export const PortfolioButton = ({ onClick, imageSrc, text, href }) => {
             <a href={href} target="_blank" rel="noopener noreferrer">
                 <button className="ButtonPortfolio" onClick={onClick}>
                     {text}
-                    {imageSrc && <img src={imageSrc} alt="" className="ButtonImage" style={{ maxWidth: '1.5em', maxHeight: '1.5em' }} />}
+                    {imageSrc && <img src={imageSrc} alt="" style={{ maxWidth: '1.5em', maxHeight: '1.5em' }} />}
                 </button>
             </a>
         </div>

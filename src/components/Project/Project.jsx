@@ -40,9 +40,7 @@ export const Project = ({ title, description, images, gitHubLink, playLink }) =>
                     margin: '0.1em',
                     borderRadius: '2.5em'
                 }}>
-                <h5 style={{
-                    fontSize: '1.6em',
-                }}><strong>{title}</strong></h5>
+                <h5  className="projectTitle"><strong>{title}</strong></h5>
 
                 <div style={{
                     display: 'flex',

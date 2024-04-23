@@ -3,21 +3,52 @@
     justify-content: center;
 }
 
+.projectTitle {
+    font-size: 1.5em;
+    width: 9em;
+    height: 3.5em;
+    font-weight: bold;
+    border-radius: 1em;
+    box-shadow: inset 0 0 3em rgba(70, 24, 139, 0.638);
+    padding: 0.2em 0.2em;
+    box-shadow:
+        rgba(14, 162, 230, 0.473) 0 1em 3em -0.75em inset,
+        rgba(7, 36, 255, 0.3) 0 1.125em 2.25em -1.125em inset,
+        rgba(0, 0, 0, 0.671) 0em 1.875em 3.75em -0.75em inset,
+        rgba(0, 0, 0, 0.09) 0em 0.5em 0.25em,
+        rgba(0, 0, 0, 0.09) 0em 1em 0.5em;
+    background-color: rgba(238, 120, 61, 0.47);
+}
+
 .projectCards {
+    height: 9em;
     width: 17em;
-    /* border: solid 0.03em rgba(134, 56, 189, 0.508); */
     transition: background-color 0.8s ease,
         box-shadow 0.8s ease;
-    box-shadow: inset 0 0 3em rgba(207, 16, 255, 0.638);
+    /* box-shadow: inset 0 0 3em rgba(207, 16, 255, 0.638); */
     background-color: rgba(0, 255, 255, 0.196);
     color: white;
-    text-shadow: 0.05em 0.05em 0.06em rgb(255, 222, 10);
+    text-shadow: 0.05em 0.05em 0.06em rgb(0, 40, 121);
+    box-shadow:
+        rgba(207, 16, 255, 0.377) 0em -1.4375em 1.5625em 0em inset,
+        rgba(207, 16, 255, 0.448)0em 1.25em 1.875em 0em inset,
+        rgba(207, 16, 255, 0.296) 0em -4.9375em 2.5em 0em inset,
+        rgba(0, 0, 0, 0.09)0em 0.125em 0.0625em,
+        rgba(0, 0, 0, 0.09) 0em 0.25em 0.125em,
+        rgba(0, 0, 0, 0.09) 0em 0.5em 0.25em,
+        rgba(0, 0, 0, 0.09) 0em 1em 0.5em,
+        rgba(0, 0, 0, 0.09) 0em 2em 1em;
+    border: none;
+
 }
 
 .projectCards:hover {
     background-color: rgba(240, 248, 255, 0);
-    color: rgb(0, 0, 0);
-    border: none;
-    box-shadow: inset 0 0 2em rgba(255, 0, 0, 0.548);
-    text-shadow: 0.08em 0.08em 0.08em rgb(228, 187, 73);
+    color: rgb(76, 162, 255);
+    box-shadow:
+        inset 0 0 2em rgba(255, 0, 0, 0.548),
+        rgba(63, 139, 245, 0.377) 0 -0.7em 3em 0em,
+        rgba(207, 16, 255, 0.448)0 0.7em 3em 0em,
+        rgba(207, 16, 255, 0.296) 0 1em 1.5em 0em;
+    text-shadow: 0.08em 0.08em 0.08em rgb(0, 0, 0);
 }

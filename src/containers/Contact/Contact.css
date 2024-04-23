@@ -18,14 +18,13 @@
   overflow: hidden;
 }
 
-
 .dataData {
   margin-top: 3em;
   color: rgb(199, 134, 22);
   text-align: center;
   text-shadow: 0.05em 0.3em 1em rgba(148, 26, 255, 0.5);
   animation: moveUpDown infinite 15s linear;
-  margin-left: 1.3em;
+  margin-left: 1.1em;
   position: absolute;
 }
 

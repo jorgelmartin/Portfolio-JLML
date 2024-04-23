@@ -10,7 +10,7 @@ export const Header = () => {
     // IF THE USER IS AT HOME PAGE, DON'T SHOW HEADER COMPONENT
     const isHome = location.pathname === '/';
     if (isHome) {
-        return null;
+        return '';
     }
 
     // CHECKING WHERE IS THE USER LOCATED AND PAINTING THE TEXT 
@@ -29,7 +29,6 @@ export const Header = () => {
             <div className='headerDesign'>
                 <div className="headerLink">
                     <div className="headerLinks" style={projectsStyle} onClick={() => navigate("/projects")}><strong>Projects</strong></div>
-                    {/* <div className="headerLinks" onClick={() => navigate("/student")}>AboutMe</div> */}
                     <div className="headerLinks" style={stackStyle} onClick={() => navigate("/stack")}><strong>Stack</strong></div>
                     <div className="headerLinks" style={contactStyle} onClick={() => navigate("/contact")}><strong>Contact</strong></div>
                 </div>

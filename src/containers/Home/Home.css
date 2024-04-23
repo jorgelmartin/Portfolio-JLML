@@ -10,6 +10,7 @@
     letter-spacing: 0.2em;
     background: linear-gradient(45deg, #ffcc00, #ff6600);
     -webkit-background-clip: text;
+    background-clip: text;
     text-align: center;
     text-shadow: 0 0 0.5em rgb(222, 85, 85), 0 0 1em rgba(181, 88, 231, 0.8), 0 0 1.5em rgba(255, 255, 255, 0.8), 0 0.8em 0.1em  rgba(255, 0, 0, 0.8);
     box-shadow: rgba(46, 249, 0, 0.442) 0em 1.875em 3.75em -0.75em inset,
@@ -21,6 +22,7 @@
     color: black;
     animation: growText 3s ease-in-out forwards;
 }
+
 @keyframes growText {
     0% {
         font-size: 0.1em; 

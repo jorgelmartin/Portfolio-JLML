@@ -18,24 +18,26 @@ import mm6 from '../../assets/mm6.png';
 import mm7 from '../../assets/mm7.png';
 import mm8 from '../../assets/mm8.png';
 import mm9 from '../../assets/mm9.png';
-import akdemy1 from '../../assets/Akdemy/home.jpeg'; 
-import akdemy2 from '../../assets/Akdemy/python.jpeg'; 
-import akdemy3 from '../../assets/Akdemy/php.jpeg'; 
+import akdemy1 from '../../assets/Akdemy/home1.jpg'; 
+import akdemy2 from '../../assets/Akdemy/python.jpg'; 
+import akdemy3 from '../../assets/Akdemy/php.jpg'; 
 import akdemy4 from '../../assets/Akdemy/register.png';
 import akdemy5 from '../../assets/Akdemy/login.png';
 import akdemy6 from '../../assets/Akdemy/profileakdemy.png';
-import akdemy7 from '../../assets/Akdemy/admin.jpeg';
+import akdemy7 from '../../assets/Akdemy/admin.jpg';
 import akdemy8 from '../../assets/Akdemy/convoadmin.png';
 import akdemy9 from '../../assets/Akdemy/create.png';
-import akdemy10 from '../../assets/Akdemy/detailconvo.jpeg';
+import akdemy10 from '../../assets/Akdemy/detailconvo.png';
 import akdemy11 from '../../assets/Akdemy/users.png';
 import akdemy12 from '../../assets/Akdemy/pending.png';
-import akdemy13 from '../../assets/Akdemy/student.jpeg';
+import akdemy13 from '../../assets/Akdemy/student.jpg';
 import akdemy14 from '../../assets/Akdemy/inscription.png';
 import akdemy15 from '../../assets/Akdemy/inscriptionok.png';
 import akdemy16 from '../../assets/Akdemy/myprograms.png';
-import akdemy17 from '../../assets/Akdemy/home2.jpeg';
-import akdemy18 from '../../assets/Akdemy/BBDDakdemy.png';
+import akdemy17 from '../../assets/Akdemy/home2.jpg';
+import akdemy18 from '../../assets/Akdemy/backAkdemy.png';
+import akdemy19 from '../../assets/Akdemy/messagesRoom.jpg';
+import akdemy20 from '../../assets/Akdemy/messagesRoom1.jpg';
 import Dental1 from '../../assets/DentalClinic/BackDental.png';
 import Dental2 from '../../assets/DentalClinic/home.jpeg';
 import Dental3 from '../../assets/DentalClinic/detail.png';
@@ -63,7 +65,7 @@ export const Projects = () => {
                         <div>
                             <Project
                                 title={"Video Console with CSS"}
-                                description={"Proyecto de consola portátil recreada con precisión utilizando HTML5, CSS3. Para una interacción más dinámica con el usuario se utiliza JavaScript que al presionar el botón START se active y desactive la pantalla con la imagen intro del juego Mobile Leyends. Por el momento no apto para móviles."}
+                                description={"Project of a handheld console recreated using HTML5 and CSS3. For a more dynamic interaction with the user, JavaScript is used to activate and deactivate the screen with the intro image of the Mobile Legends game when the START button is pressed. Currently not responsive."}
                                 images={[consoleImage1, consoleImage2, consoleImage3]}
                                 playLink="https://jorgemctin.github.io/VideoConsoleCSS/"
                                 gitHubLink="https://github.com/jorgemctin/VideoConsoleCSS"
@@ -74,7 +76,7 @@ export const Projects = () => {
                         <div>
                             <Project
                                 title={"Digital Menu Restaurant"}
-                                description={"El proyecto es un sitio web de carta de restaurante digital para un negocio de comida callejera. Ofrece un menú con opciones de inicio, carta y contacto, reseñas de clientes y la capacidad de hacer reservas con confirmación. Tecnologías: Bootstrap, HTML y CSS."}
+                                description={"The project is a digital restaurant menu website for a street food business. It offers a menu with options for starters, menu, and contact, customer reviews, and the ability to make reservations with confirmation. Technologies used: Bootstrap, HTML, and CSS."}
                                 images={[digitalMenu1, digitalMenu2, digitalMenu3, digitalMenu4, digitalMenu5, digitalMenu6]}
                                 playLink="https://jorgemctin.github.io/DigitalMenuRestaurant/"
                                 gitHubLink="https://github.com/jorgemctin/DigitalMenuRestaurant/"
@@ -85,7 +87,7 @@ export const Projects = () => {
                         <div>
                             <Project
                                 title={"Backend DentalClinic"}
-                                description={"Sistema de gestión de clínica dental con roles de pacientes y administradores/dentistas. Los pacientes pueden gestionar sus citas y perfiles, mientras que los administradores ven todos los pacientes y citas. Los pacientes también pueden ver su historial de citas con detalles y tratamientos asociados."}
+                                description={"Dental clinic management system with patient and administrator/dentist roles. Patients can manage their appointments and profiles, while administrators can view all users and appointments."}
                                 images={[Dental1]}
                                 playLink="https://react-dentalclinic.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/Backend-DentalClinic"
@@ -96,7 +98,7 @@ export const Projects = () => {
                         <div>
                             <Project
                                 title={"Frontend DentalClinic"}
-                                description={"Desarrollo y diseño FRONTEND de una aplicación funcional para una clínica dental. Los pacientes (role por defecto) una vez registrados podrán editar su perfil, crear la cita de interés, teniendo la oportunidad de escoger fecha, hora, servicio y dentista. También podrán ver el historial de sus citas, al igual que modificarla. El admin podrá ver todos las citas y usuarios registrados en la aplicación. Credenciales Admin: admin@dentist.com - Hola1234"}
+                                description={"Frontend development and design of an application for a dental clinic. Patients (default role) once registered will be able to edit their profile, schedule an appointment of interest, having the opportunity to choose date, time, service, and dentist. They will also be able to view their appointment history, as well as modify it. The admin will be able to see all appointments and users registered in the application. Admin Credentials: admin@dentist.com - Hola1234"}
                                 images={[Dental2, Dental3, Dental4, Dental5, Dental6, Dental7, Dental8, Dental9, Dental10, Dental11, Dental12, Dental13]}
                                 playLink="https://react-dentalclinic.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/Frontend-DentalClinic"
@@ -107,7 +109,7 @@ export const Projects = () => {
                         <div>
                             <Project
                                 title={"Backend AkdemyProject"}
-                                description={"El proyecto Akdemy es una aplicación que ofrece diferentes programas y convocatorias a sus usuarios. Los administradores tienen privilegios adicionales para gestionar convocatorias y solicitudes de inscripción. Los usuarios tendrán acceso a su propio perfil, donde podrán visualizar y editar su información personal. Además, podrán explorar todos los programas académicos ofrecidos por la institución, obtener detalles sobre cada uno de ellos y tomar decisiones sobre sus intereses educativos."}
+                                description={"The backend project of Akdemy is designed for program visualization, user profile management, convocations, and message exchange. Endpoints are provided to carry out these operations, in addition to authentication functions."}
                                 images={[akdemy18]}
                                 playLink="https://react-akdemy-project.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/Laravel-AkdemyProject"
@@ -118,8 +120,8 @@ export const Projects = () => {
                         <div>
                             <Project
                                 title={"Frontend AkdemyProject"}
-                                description={"En Akdemy los usuarios se registran y acceden a su espacio, donde pueden explorar programas académicos, solicitar inscripciones y editar su información personal. Los administradores gestionan las convocatorias y solicitudes de inscripción. Akdemy brinda una experiencia educativa completa y transparente, con un enfoque en la accesibilidad y facilidad de uso. Credenciales Admin: admin@admin.com - Hola1234"}
-                                images={[akdemy1, akdemy2, akdemy3, akdemy4, akdemy5, akdemy6, akdemy7, akdemy8, akdemy9, akdemy10, akdemy11, akdemy12, akdemy13, akdemy14, akdemy15, akdemy16, akdemy17 ]}
+                                description={"Akdemy is an application that provides academic programs and convocations to users. Administrators can manage users, convocations, and enrollment requests, while users can explore programs, request enrollments, and track their requests. It also features program-specific messaging rooms for users to communicate and share experiences. The application design focuses on accessibility and ease of use. Admin Credentials: admin@admin.com -  Hola1234"}
+                                images={[akdemy1, akdemy2, akdemy3, akdemy4, akdemy5, akdemy13, akdemy19, akdemy20, akdemy14, akdemy15, akdemy16, akdemy6,akdemy7, akdemy11, akdemy12,  akdemy8, akdemy9, akdemy10,  akdemy17 ]}
                                 playLink="https://react-akdemy-project.vercel.app/"
                                 gitHubLink="https://github.com/jorgemctin/React-AkdemyProject"
                             />
@@ -129,10 +131,10 @@ export const Projects = () => {
                         <div>
                             <Project
                                 title={"Game MasterMind JS"}
-                                description={"MasterMind es un juego de lógica. Los jugadores pueden comenzar ingresando su nombre y eligiendo un nivel de dificultad, que determina la cantidad de intentos y colores disponibles. Seleccionan colores para adivinar una combinación secreta. El botón 'Comprobar' verifica si la elección es correcta. También hay un menú de ayuda con información sobre cómo jugar y detalles sobre el juego. El objetivo es acertar la combinación secreta dentro de los intentos disponibles."}
+                                description={"MasterMind is a logic game. Players can start by entering their name and choosing a difficulty level, which determines the number of attempts and available colors. They select colors to guess a secret combination. The 'Check' button verifies if the choice is correct. There is also a help menu with information on how to play and details about the game. The goal is to guess the secret combination within the available attempts."}
                                 images={[mm1, mm2, mm3, mm4, mm5, mm6, mm7, mm8, mm9]}
                                 playLink="https://jorgemctin.github.io/GameMasterMind/"
-                                gitHubLink="https://github.com/jorgemctin/Game-MasterMind"
+                                gitHubLink="https://github.com/jorgemctin/GameMasterMind"
                             />
                         </div>
                     </Col>

@@ -25,7 +25,7 @@ export const Contact = () => {
                         <p>Jorge Luis Martin Lorenzo</p>
                         <p>Full Stack Developer</p>
                         <p>Valencia, Spain</p>
-                        <p>jorgemctin@gmail.com</p>
+                        <p>jorgemctin.dev@gmail.com</p>
                     </strong>
                 </div>
             </div>
@@ -35,7 +35,6 @@ export const Contact = () => {
                 <PortfolioButton
                     href={"https://www.linkedin.com/in/jorge-luis-martin-lorenzo/"}
                     text={"LinkedIn"}
-                    imageSrc={""}
                 />
                 <PortfolioButton
                     onClick={handleOpenModal}
