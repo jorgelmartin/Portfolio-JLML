@@ -27,11 +27,11 @@ export const ImageGallery = ({ description, images, toggleGallery, galleryVisibl
                         <div
                             onClick={prevImage}
                             className="buttonGallery"
-                        >🡰</div>
+                        >◁</div>
                         <div
                             onClick={nextImage}
                             className="buttonGallery"
-                        >🡲</div>
+                        >▷</div>
                     </div>
                     {description}
                 </Modal.Body>
