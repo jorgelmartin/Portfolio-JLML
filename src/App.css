@@ -15,7 +15,7 @@ body,
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('/src/assets/galaxybg.jpg');
+  background-image: url('/src/assets/galaxybg.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }
