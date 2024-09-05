@@ -41,7 +41,7 @@ export const Contact = () => {
 
                 />
                 <PortfolioButton
-                    href={"https://github.com/jorgemctin"}
+                    href={"https://github.com/jorgelmartin"}
                     text={"GitHub"}
                 />
             </div> {showModal && <LanguageModal show={showModal} onClose={handleCloseModal} />}

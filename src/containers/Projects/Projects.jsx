@@ -43,7 +43,7 @@ import Dental2 from '../../assets/DentalClinic/home.jpeg';
 import Dental3 from '../../assets/DentalClinic/detail.png';
 import Dental4 from '../../assets/DentalClinic/login.png';
 import Dental5 from '../../assets/DentalClinic/register.png';
-import Dental6 from '../../assets/DentalClinic/admin.jpeg';
+import Dental6 from '../../assets/DentalClinic/adminMenu.png';
 import Dental7 from '../../assets/DentalClinic/patients.png';
 import Dental8 from '../../assets/DentalClinic/perfil.png';
 import Dental9 from '../../assets/DentalClinic/users.png';
@@ -51,6 +51,7 @@ import Dental10 from '../../assets/DentalClinic/citas.png';
 import Dental11 from '../../assets/DentalClinic/citapaciente.png';
 import Dental12 from '../../assets/DentalClinic/detallecita.png';
 import Dental13 from '../../assets/DentalClinic/home1.jpeg';
+import Dental14 from '../../assets/DentalClinic/userDetail.png';
 import { Container, Row, Col } from "react-bootstrap";
 import { Project } from "../../components/Project/Project";
 
@@ -67,8 +68,8 @@ export const Projects = () => {
                                 title={"Video Console with CSS"}
                                 description={"Project of a handheld console recreated using HTML5 and CSS3. For a more dynamic interaction with the user, JavaScript is used to activate and deactivate the screen with the intro image of the Mobile Legends game when the START button is pressed. Currently not responsive."}
                                 images={[consoleImage1, consoleImage2, consoleImage3]}
-                                playLink="https://jorgemctin.github.io/VideoConsoleCSS/"
-                                gitHubLink="https://github.com/jorgemctin/VideoConsoleCSS"
+                                playLink="https://jorgelmartin.github.io/VideoConsoleCSS/"
+                                gitHubLink="https://github.com/jorgelmartin/VideoConsoleCSS"
                             />
                         </div>
                     </Col>
@@ -78,8 +79,8 @@ export const Projects = () => {
                                 title={"Digital Menu Restaurant"}
                                 description={"The project is a digital restaurant menu website for a street food business. It offers a menu with options for starters, menu, and contact, customer reviews, and the ability to make reservations with confirmation. Technologies used: Bootstrap, HTML, and CSS."}
                                 images={[digitalMenu1, digitalMenu2, digitalMenu3, digitalMenu4, digitalMenu5, digitalMenu6]}
-                                playLink="https://jorgemctin.github.io/DigitalMenuRestaurant/"
-                                gitHubLink="https://github.com/jorgemctin/DigitalMenuRestaurant/"
+                                playLink="https://jorgelmartin.github.io/DigitalMenuRestaurant/"
+                                gitHubLink="https://github.com/jorgelmartin/DigitalMenuRestaurant/"
                             />
                         </div>
                     </Col>
@@ -90,7 +91,7 @@ export const Projects = () => {
                                 description={"Dental clinic management system with patient and administrator/dentist roles. Patients can manage their appointments and profiles, while administrators can view all users and appointments."}
                                 images={[Dental1]}
                                 playLink="https://react-dentalclinic.vercel.app/"
-                                gitHubLink="https://github.com/jorgemctin/Backend-DentalClinic"
+                                gitHubLink="https://github.com/jorgelmartin/Backend-DentalClinic"
                             />
                         </div>
                     </Col>
@@ -99,9 +100,9 @@ export const Projects = () => {
                             <Project
                                 title={"Frontend DentalClinic"}
                                 description={"Frontend development and design of an application for a dental clinic. Patients (default role) once registered will be able to edit their profile, schedule an appointment of interest, having the opportunity to choose date, time, service, and dentist. They will also be able to view their appointment history, as well as modify it. The admin will be able to see all appointments and users registered in the application. Admin Credentials: admin@dentist.com - Hola1234"}
-                                images={[Dental2, Dental3, Dental4, Dental5, Dental6, Dental7, Dental8, Dental9, Dental10, Dental11, Dental12, Dental13]}
+                                images={[Dental2, Dental3, Dental4, Dental5, Dental6, Dental7, Dental8, Dental9,Dental14, Dental10, Dental11, Dental12, Dental13]}
                                 playLink="https://react-dentalclinic.vercel.app/"
-                                gitHubLink="https://github.com/jorgemctin/Frontend-DentalClinic"
+                                gitHubLink="https://github.com/jorgelmartin/Frontend-DentalClinic"
                             />
                         </div>
                     </Col>
@@ -112,7 +113,7 @@ export const Projects = () => {
                                 description={"The backend project of Akdemy is designed for program visualization, user profile management, convocations, and message exchange. Endpoints are provided to carry out these operations, in addition to authentication functions."}
                                 images={[akdemy18]}
                                 playLink="https://react-akdemy-project.vercel.app/"
-                                gitHubLink="https://github.com/jorgemctin/Laravel-AkdemyProject"
+                                gitHubLink="https://github.com/jorgelmartin/Laravel-AkdemyProject"
                             />
                         </div>
                     </Col>
@@ -123,7 +124,7 @@ export const Projects = () => {
                                 description={"Akdemy is an application that provides academic programs and convocations to users. Administrators can manage users, convocations, and enrollment requests, while users can explore programs, request enrollments, and track their requests. It also features program-specific messaging rooms for users to communicate and share experiences. The application design focuses on accessibility and ease of use. Admin Credentials: admin@admin.com -  Hola1234"}
                                 images={[akdemy1, akdemy2, akdemy3, akdemy4, akdemy5, akdemy13, akdemy19, akdemy20, akdemy14, akdemy15, akdemy16, akdemy6,akdemy7, akdemy11, akdemy12,  akdemy8, akdemy9, akdemy10,  akdemy17 ]}
                                 playLink="https://react-akdemy-project.vercel.app/"
-                                gitHubLink="https://github.com/jorgemctin/React-AkdemyProject"
+                                gitHubLink="https://github.com/jorgelmartin/React-AkdemyProject"
                             />
                         </div>
                     </Col>
@@ -133,8 +134,8 @@ export const Projects = () => {
                                 title={"Game MasterMind JS"}
                                 description={"MasterMind is a logic game. Players can start by entering their name and choosing a difficulty level, which determines the number of attempts and available colors. They select colors to guess a secret combination. The 'Check' button verifies if the choice is correct. There is also a help menu with information on how to play and details about the game. The goal is to guess the secret combination within the available attempts."}
                                 images={[mm1, mm2, mm3, mm4, mm5, mm6, mm7, mm8, mm9]}
-                                playLink="https://jorgemctin.github.io/GameMasterMind/"
-                                gitHubLink="https://github.com/jorgemctin/GameMasterMind"
+                                playLink="https://jorgelmartin.github.io/GameMasterMind/"
+                                gitHubLink="https://github.com/jorgelmartin/GameMasterMind"
                             />
                         </div>
                     </Col>
